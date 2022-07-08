@@ -1,0 +1,116 @@
+.home-container{
+    background: rgba(16, 24, 39, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding: 100px 10%;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.headre-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-text > h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3em;
+    line-height:50px ;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin: 10px ;
+}
+
+.header-text > p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e5e5e5;
+    text-align: center;
+    margin: 10px;
+}
+
+.head-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 10px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 36px;
+    height: 45px;
+    left: 0;
+    top:0;
+    text-decoration: none;
+    box-shadow: 0 4px 31px rgba(0 0 0 0.15);
+    border-radius: 35px;
+    margin: 4px;
+
+}
+
+.btn-white{
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background: black;
+    color: #fff;
+
+}
+
+.btn-white:hover{
+    background: none;
+}
+.btn-transparent{
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 1px 10px 32px rgba(0 0 0 0.15);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.splash-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-anime{
+    margin-bottom: -80px;
+}
+
+/* for small height sizes screen */
+@media only screen and (max-height:550px){
+    .home-anime{
+        width: 400px;
+    }
+}
+/* for small width screen sizes */
+@media only screen and (max-width:550px){
+    .home-anime{
+        width: 300px;
+    }
+}
