@@ -8,6 +8,7 @@ const withLocation = (GoHome) => (props) => {
     const location = useLocation();
     return <GoHome {...props} location={location} />;
 }
+
 const GoHome = () => {
     const navigate = useNavigate();
     // console.log(navigate)
@@ -18,18 +19,18 @@ const GoHome = () => {
         navigate("/");
     }
     // const {pathname}= location;
-    const whiteBtn = location.pathname==="/";
-        return(
-            <button onClick={() => navigateToHome()}>
-                <img
-                className={`go-home-btn ${
-                    whiteBtn? 'whiteBkg':'gradient-bkg'
-                }`}
-                src={whiteBtn?homeIconWhite:homeIconBlack} 
-                alt="" />
-            </button>
-        );
-    }
+    const whiteBtn = location.pathname === "/";
+    return (
+        <button
+            className={`go-home-btn ${whiteBtn ? 'white-bkg' : 'gradient-bkg'}`}
+            onClick={() => navigateToHome()}>
+            <img
+                className='home-icon'
+                src={whiteBtn ? homeIconBlack : homeIconWhite}
+                alt="home-icon" />
+        </button>
+    );
+}
 
 
 export default withLocation(GoHome);
