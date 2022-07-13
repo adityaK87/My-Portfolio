@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import FooterLink from '../FooterLink/FooterLink';
 import contactVector from '../../assets/contact_anime.png';
 import github from '../../assets/gh.png'
+import linkedIn from '../../assets/li.png'
 
 
 const Contact = () => {
@@ -16,7 +17,9 @@ const Contact = () => {
             
             {/* contact form container */}
             <div className="contact-form-container">
-                <form className="contact-form">
+                <form className="contact-form"
+                  action="https://formspree.io/f/xpzbgnqq"
+                  method="POST"  >
                     <input
                         type="email"
                         placeholder='Your Email Id'
@@ -39,6 +42,10 @@ const Contact = () => {
             <div className="social-icon-container">
                 <a href="https://github.com/adityapal87">
                     <img src={github} alt="github" className='social-icon' />
+                </a>
+
+                <a href="https://www.linkedin.com/in/aditya-pal-526121233/">
+                    <img src={linkedIn} alt="linkedIn" />
                 </a>
 
             </div>
