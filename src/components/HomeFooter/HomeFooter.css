@@ -1,0 +1,52 @@
+.home-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Montserrat SemiBold';
+    flex-wrap: wrap;
+    color: #bcb4b4;
+    background: #000;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 50px;
+    justify-content: space-evenly;
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+.my-name{
+    font-family: 'Montserrat SemiBold';
+    font-size: 35px;
+    margin-bottom: 2px;
+
+}
+.my-details{
+    font-size: 15px;
+}
+
+
+
+.social-media > ul > li{
+    list-style: none;  
+}
+.social-media > ul {
+    display: flex;
+    
+}
+
+.github,
+.linkedin{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
