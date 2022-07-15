@@ -7,11 +7,12 @@
     overflow-y: auto;
     padding: 100px 10%;
     min-height: 100vh;
+    overflow-x: hidden;
     box-sizing: border-box;
 
 }
 
-.headre-text{
+.header-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,14 +104,29 @@
 }
 
 /* for small height sizes screen */
-@media only screen and (max-height:550px){
+@media only screen and (max-height:800px){
+    .home-anime{
+        width: 500px;
+    }
+}
+@media only screen and (max-height:690px){
     .home-anime{
         width: 400px;
     }
 }
 /* for small width screen sizes */
-@media only screen and (max-width:550px){
+@media only screen and (max-width:527px){
     .home-anime{
         width: 300px;
+    }
+    .header-text > h1{
+        font-size: 2em;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .header-text >p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
     }
 }
