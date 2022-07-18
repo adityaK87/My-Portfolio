@@ -5,9 +5,30 @@ body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    top: 0%;
 }
+
 input:focus,
 textarea:focus,
 select:focus{
     outline: none;
+}
+.section-container{
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background: #e4e8dc; */
+} 
+
+/* for small width screen */
+@media only screen and (max-width:640px) {
+    .section-container{
+        padding:  100px 0px;
+    }
 }
