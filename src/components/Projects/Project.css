@@ -8,8 +8,8 @@
 }
 
 .project-card{
-    width: 500px;
-    min-height: 550px;
+    width: 400px;
+    min-height:fit-content;
     background: #fff;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
@@ -39,7 +39,7 @@
     border-radius: 20px 20px 0px 0px;
 }
 
-.project-details-container{
+.project-detail-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,23 +49,36 @@
 
 .project-heading{
     margin: 0px;
+    /* padding: 8px 0px 0px 8px; */
 }
 
 .project-details{
-    font-weight: 300;
     font-size: 16px;
+    font-weight: 300;
     line-height: 28px;
     color: #7d7987;
+
 }
 
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:970px) {
     .project-card-container{
         padding: 20px;
     }
     .project-card{
-        width: 290px;
-        min-height: 500px;
+        width: 350px;
+        min-height: fit-content;
+    }
+    
+}
+
+@media only screen and (max-width:400px) {
+    .project-card-container{
+        padding: 20px;
+    }
+    .project-card{
+        width: 300px;
+        min-height: fit-content;
     }
     
 }
