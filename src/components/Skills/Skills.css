@@ -26,19 +26,19 @@
 .skill{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 122px;
     align-items: center;
     margin-bottom: 20px;
 }
 
 .skill >img {
-    width: 108px;
-    margin-bottom: 15px ;
+    width: 63px;
+    margin-bottom: -10px ;
     filter: drop-shadow(0 4px 4px rgba(0 , 0 , 0 , 0.25));
 }
 
 .skill > p{
-    font-family: Montserrat;
+    font-family: monospace;
     font-size: 20px;
     font-weight: normal ;
     line-height: 36px;
