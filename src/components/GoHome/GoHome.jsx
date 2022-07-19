@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import homeIconWhite from '../../assets/home_white.png';
 import homeIconBlack from '../../assets/home_black.png';
-import './GoHome.css'
+import './GoHome.css';
 
 
 const withLocation = (GoHome) => (props) => {
