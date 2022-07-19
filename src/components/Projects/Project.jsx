@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import FooterLink from '../FooterLink/FooterLink';
 import { projectsData } from '../../assets/projectsData'
 import ProjectsCard from './ProjectsCard';
+import contactVector from '../../assets/contact_anime.png';
 
 
 
@@ -11,7 +12,7 @@ const Project = () => {
   return (
     <div className='section-container'>
       <Header
-        heading="My Projects"
+        heading="My Projects!"
         details="Here are a few cool things I've worked on , do check them out. "
       />
 
@@ -38,6 +39,14 @@ const Project = () => {
         link=" my skills!"
         toAdress="/skills"
       />
+
+      <div className="vector-frame">
+        <img
+          src={contactVector}
+          alt="contact"
+          className='about-vetor'
+        />
+      </div>
 
     </div>
   );
