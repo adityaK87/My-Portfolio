@@ -114,6 +114,11 @@
         width: 400px;
     }
 }
+@media only screen and (max-width:645px){
+    .home-anime{
+        width: 350px;
+    }
+}
 /* for small width screen sizes */
 @media only screen and (max-width:527px){
     .home-anime{
