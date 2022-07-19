@@ -21,9 +21,13 @@
 
 /* size of the cross button */
 .bm-cross-button{
-    height: 24px;
+    position: absolute;
     width: 24px;
+    height: 24px;
+    right: 13px;
+    top: 10px;
 }
+
 
 /* color of cross button */
 .bm-cross {
@@ -89,14 +93,11 @@
         width: fit-content;
     }
     .bm-cross-button{
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        right: 120px !important;
-        top: 15px;
+        right: 12px !important;
+       
     }
     .bm-menu-wrap{
-        width: 200px !important;
+        width:fit-content !important;
     }
     
 }
