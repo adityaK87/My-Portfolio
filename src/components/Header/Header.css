@@ -21,10 +21,10 @@
 
 }
 .header-container > p{
-    font-family: Montserrat;
+    font-family: monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 1,4em;
+    font-size: 1.2em;
     line-height: 1.4em;
     text-align: center;
     margin: 10px 0px;
@@ -38,7 +38,7 @@
     }
     .header-container >p{
         font-size: 1.2em;
-        line-height: 1.2emx;
+        line-height: 1.2em;
     }
     
 }
