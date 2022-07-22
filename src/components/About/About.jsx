@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../Header/Header';
 import FooterLink from '../FooterLink/FooterLink';
 import "./About.css"
-import aboutVector from '../../assets/about_vector.png'
 import aboutAnime from '../../assets/about_anime.gif'
 import { Link } from 'react-router-dom';
 
@@ -10,15 +9,15 @@ const About = () => {
     return (
         <div className='section-container'>
             <Header
-                heading=" About Me . "
-                details=" Aditya | A student | Frontend developer !"
+                heading=" About Me! "
+                details=" Student | Enthusiatic Front End Developer who loves going into the depth of HOWs and WHYs.!"
             />
 
             <div className="about-main">
                 <div className="about-main-left">
                     {/* sub-section 1 */}
-                    <h3 className="about-sub-head">Student</h3>
-                    <p className="about-details"> I am studying about programming and Web Developement.
+                    <h3 className="about-sub-head">studying about programming and Web Developement</h3>
+                    <p className="about-details">
                         <Link to='/projects' className='about-link-element'>check out my projects</Link></p>
 
 
@@ -43,11 +42,8 @@ const About = () => {
 
             />
 
-            {/* vector Frame! */}
 
-            <div className="vector-frame">
-                <img src={aboutVector} className="about-vector" alt='about vector' />
-            </div>
+          
         </div>
     );
 };
