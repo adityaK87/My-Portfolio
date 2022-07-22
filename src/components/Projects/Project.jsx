@@ -4,7 +4,6 @@ import Header from '../Header/Header'
 import FooterLink from '../FooterLink/FooterLink';
 import { projectsData } from '../../assets/projectsData'
 import ProjectsCard from './ProjectsCard';
-import contactVector from '../../assets/contact_anime.png';
 
 
 
@@ -25,6 +24,7 @@ const Project = () => {
             projectUrl
           }) => {
             return <ProjectsCard
+              key={projectName}
               projectName={projectName}
               projectDescription={projectDescription}
               imageUrl={imageUrl}
@@ -39,15 +39,6 @@ const Project = () => {
         link=" my skills!"
         toAdress="/skills"
       />
-
-      <div className="vector-frame">
-        <img
-          src={contactVector}
-          alt="contact"
-          className='about-vetor'
-        />
-      </div>
-
     </div>
   );
 };
