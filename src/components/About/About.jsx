@@ -16,7 +16,7 @@ const About = () => {
             <div className="about-main">
                 <div className="about-main-left">
                     {/* sub-section 1 */}
-                    <h3 className="about-sub-head">studying about programming and Web Developement</h3>
+                    <h3 className="about-sub-head">Studying about programming and Web Developement</h3>
                     <p className="about-details">
                         <Link to='/projects' className='about-link-element'>check out my projects</Link></p>
 
@@ -39,11 +39,7 @@ const About = () => {
                 phrase=" check out my "
                 link="projects!"
                 toAdress="/projects"
-
             />
-
-
-          
         </div>
     );
 };

@@ -12,7 +12,7 @@ const Project = () => {
     <div className='section-container'>
       <Header
         heading="My Projects!"
-        details="Here are a few cool things I've worked on , do check them out. "
+        details="Here are a few cool things I've worked on , Do check them out. "
       />
 
       <div className="project-card-container">

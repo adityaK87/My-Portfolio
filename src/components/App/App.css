@@ -34,15 +34,14 @@ select:focus{
     }
 }
 
-
-:root, [data-theme="light"] {
+ [data-theme="light"] {
     --font-color: #000;
-    --background-color: #2277ab;;
-    --link-color: #44dc3f;
+    --background-color: #5facdc;
+    --link-color: #1900ff;
   }
   
   [data-theme="dark"] {
-    --font-color: orange;
+    --font-color: #fff;
     --background-color: #000;
     /* --link-color: lightblue; */
   }

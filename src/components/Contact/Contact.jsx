@@ -2,8 +2,8 @@ import React from 'react';
 import './Contact.css';
 import Header from '../Header/Header';
 import FooterLink from '../FooterLink/FooterLink';
-import github from '../../assets/gh.png';
-import linkedIn from '../../assets/li.png';
+import github from '../../assets/gitLogo1.png';
+import linkedin from '../../assets/li.png';
 
 
 const Contact = () => {
@@ -39,13 +39,11 @@ const Contact = () => {
             </div>
             {/* social icon container */}
             <div className="social-icon-container">
-                <a href="https://github.com/adityapal87">
-                    <img src={github} alt="github" className='social-icon github ' />
-                </a>
+                <ul>
+                    <li> <a href="https://github.com/adityapal87"> <img src={github} alt="github" className='github' /> </a> </li>
+                    <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
+                </ul>
 
-                <a href="https://www.linkedin.com/in/aditya-pal-526121233/">
-                    <img src={linkedIn} alt="linkedIn" className='social-icon ' />
-                </a>
 
             </div>
 

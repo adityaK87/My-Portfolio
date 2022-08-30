@@ -10,12 +10,12 @@
 
 /* color to our burger button */
 .bm-burger-bars{
-    background-color: #44dc3f;
+    background-color: #bea11f;
 }
 
 /* color to our burger icon on hover */
 .bm-burger-bars-hover{
-    background-color: #5185b8;
+    background-color: #d6e2ef;
 }
 
 /* size of the cross button */
@@ -23,7 +23,7 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    right: 13px;
+    right: 16px !important;
     top: 10px;
 }
 

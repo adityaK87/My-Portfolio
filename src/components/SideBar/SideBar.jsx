@@ -2,7 +2,7 @@ import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
-import "./SideBar.css"
+import "./SideBar.css";
 
 const withLocation = (SideBar) => (props) => {
     const location = useLocation();

@@ -5,7 +5,11 @@
     text-align: center;
     letter-spacing: -0.015em;
 }
-
+[data-theme="dark"]
 .footer-link-element{
-    color: #000 ;
+    color: #fff ;
+}
+[data-theme="light"]
+.footer-link-element{
+    color: #000;
 }

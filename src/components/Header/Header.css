@@ -1,4 +1,4 @@
-.header-container{
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,19 +8,30 @@
 }
 
 
+[data-theme="light"]
+.header-container>h1 {
+    color: #000;
+}
 
-.header-container > h1{
+
+[data-theme="dark"]
+.header-container >h1 {
+    color: #fff;
+}
+
+.header-container > h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 2.5em;
     line-height: 57px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #000;
+    /* color: #000; */
     margin: 0%;
 
 }
-.header-container > p{
+
+.header-container>p {
     font-family: monospace;
     font-style: normal;
     font-weight: normal;
@@ -32,13 +43,14 @@
 }
 
 @media only screen and (max-width:640px) {
-    .header-container{
+    .header-container {
         width: 80%;
 
     }
-    .header-container >p{
+
+    .header-container>p {
         font-size: 1.2em;
         line-height: 1.2em;
     }
-    
+
 }
