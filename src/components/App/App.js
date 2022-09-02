@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import {Routes , Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from '../Home/Home';
 import About from '../About/About'
@@ -15,28 +15,28 @@ import DarkMode from '../DarkMode/DarkMode';
 
 const App = () => {
     const [isHome, setIsHome] = useState(false);
-    const {pathname} = useLocation();
+    const { pathname } = useLocation();
 
     useEffect(() => {
-        if(pathname === '/' ){  // HomeFooter will be shown only on home page{app component}
+        if (pathname === '/') {  // HomeFooter will be shown only on home page{app component}
             setIsHome(true);
         } else setIsHome(false);
     }, [pathname]);
 
     return (
         <>
-            <DarkMode/>
+            <DarkMode />
             <>
                 <SideBar />
                 <Routes>
-                    <Route path='/' exact element={<Home/>} />
+                    <Route path='/' exact element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/projects' element={<Project />} />
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <GoHome />
-                { isHome && <HomeFooter/> }
+                {isHome && <HomeFooter />}
             </>
         </>
     );

@@ -4,8 +4,8 @@ import github from '../../assets/gitLogo1.png';
 import linkedin from '../../assets/li.png';
 
 
-const HomeFooter = () => { 
-    return(
+const HomeFooter = () => {
+    return (
         <div className="home-footer">
             <div className='container'>
                 <div className="left-footer">
@@ -18,17 +18,17 @@ const HomeFooter = () => {
                         {/* <h2>SOCIAL MEDIA</h2> */}
                         <ul>
                             <li> <a href="https://github.com/adityapal87"> <img src={github} alt="github" className='github' /> </a> </li>
-                            <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/"><img src={linkedin} alt="linkedin" className='linkedin'/></a> </li>
+                            <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
                         </ul>
                     </div>
 
                 </div>
             </div>
-            
+
             <div className="copyright">
-            <div class="copyright-section">© 2022 - Aditya Kumar</div>
+                <div class="copyright-section">© 2022 - Aditya Kumar</div>
             </div>
-         </div> 
-        );
+        </div>
+    );
 };
 export default HomeFooter;

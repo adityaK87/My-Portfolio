@@ -19,9 +19,9 @@ const Home = () => {
                         <p className="btn-text">Connect with me </p>
                     </Link>
                 </div>
-                    <div className="splash-img">
-                        <img src={homeAnime} alt="Animation" />
-                    </div>
+                <div className="splash-img">
+                    <img src={homeAnime} alt="Animation" />
+                </div>
             </div>
         </div>
     )
