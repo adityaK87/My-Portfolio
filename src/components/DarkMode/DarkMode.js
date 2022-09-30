@@ -47,15 +47,22 @@ const DarkMode = () => {
         <i class="fa-light fa-moon"></i>
         <div className="slider round"></div>
       </label> */}
+
+
+      {/* New darkmode button */}
       <input type="checkbox"
         class="checkbox "
         id="checkbox"
         className='checkbox'
         onChange={toggleTheme}
         defaultChecked={defaultDark} />
-      <label for="checkbox" className=" label toggle-theme checkbox" htmlFor="checkbox" >
-        <i className="fas fa-moon"></i>
+      <label
+        for="checkbox"
+        className="label toggle-theme checkbox"
+        htmlFor="checkbox" >
+
         <i className='fas fa-sun'></i>
+        <i className="fas fa-moon"></i>
         <div className='ball ' />
       </label>
     </div>
