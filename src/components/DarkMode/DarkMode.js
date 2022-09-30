@@ -35,17 +35,29 @@ const toggleTheme = (e) => {
 const DarkMode = () => {
   return (
     <div className="toggle-theme-wrapper">
-      <span>☀️</span>
-      <label className="toggle-theme" htmlFor="checkbox">
+      {/* <label className="toggle-theme checkbox" htmlFor="checkbox">
+        <i class="fa-light fa-sun"></i>
         <input
+          className='checkbox'
           type="checkbox"
           id="checkbox"
           onChange={toggleTheme}
           defaultChecked={defaultDark}
         />
+        <i class="fa-light fa-moon"></i>
         <div className="slider round"></div>
+      </label> */}
+      <input type="checkbox"
+        class="checkbox "
+        id="checkbox"
+        className='checkbox'
+        onChange={toggleTheme}
+        defaultChecked={defaultDark} />
+      <label for="checkbox" className=" label toggle-theme checkbox" htmlFor="checkbox" >
+        <i className="fas fa-moon"></i>
+        <i className='fas fa-sun'></i>
+        <div className='ball ' />
       </label>
-      <span>🌒</span>
     </div>
   );
 };

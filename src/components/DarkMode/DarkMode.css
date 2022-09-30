@@ -1,4 +1,52 @@
-.toggle-theme-wrapper{
+.toggle-theme-wrapper {
     flex-direction: row;
     float: right;
 }
+
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 40px;
+    height: 14px;
+    background-color: #4e4747;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: absolute;
+    transform: scale(1.5);
+    z-index: 1;
+    opacity: 2.2;
+    content: " ";
+    right: 6px;
+
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+  
+  .fa-moon {
+    color: pink;
+  }
+  
+  .fa-sun {
+    color: yellow;
+  }
