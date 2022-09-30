@@ -1,4 +1,4 @@
-.home-footer{
+.home-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,45 +8,49 @@
     min-height: 22vh;
     overflow-x: hidden;
     box-sizing: border-box;
-    
+
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     margin: 0 100px;
     justify-content: space-evenly;
 }
 
-.left-footer{
+.left-footer {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
 
 }
-.right-footer{
+
+.right-footer {
     align-self: center;
 }
 
-.my-name{
-    font-family: 'monospace SemiBold';
+.my-name {
+    font-family: monospace ;
     font-size: 35px;
     margin-bottom: 2px;
 
 }
-.my-details{
+
+.my-details {
     font-size: 15px;
 }
 
 
 
-.social-media{
+.social-media {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -54,17 +58,17 @@ ul{
 
 
 
-.github, .linkedin{
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-        background-color: #0f1726;
-        border-radius: 17px;
+.github,
+.linkedin {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
 }
 
 
-.copyright{
+.copyright {
     align-self: center;
 }
-
-
+[data-theme="dark"] .home-footer{
+        background: #000;
+    }

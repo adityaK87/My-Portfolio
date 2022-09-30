@@ -9,7 +9,7 @@ const HomeFooter = () => {
         <div className="home-footer">
             <div className='container'>
                 <div className="left-footer">
-                    <h1 className='my-name'>Aditya  Kumar </h1>
+                    <h1 className='my-name'>Aditya Kumar</h1>
                     <p className="my-details">A dedicated Front End Developer looking for challenging opportunities which could help in enhancing my skills.</p>
                 </div>
 
