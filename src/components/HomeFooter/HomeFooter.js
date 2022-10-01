@@ -17,8 +17,8 @@ const HomeFooter = () => {
                     <div className="social-media">
                         {/* <h2>SOCIAL MEDIA</h2> */}
                         <ul>
-                            <li> <a href="https://github.com/adityapal87"> <img src={github} alt="github" className='github' /> </a> </li>
-                            <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
+                            <li> <a href="https://github.com/adityapal87" target="_blank"> <img src={github} alt="github" className='github' /> </a> </li>
+                            <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/" target="_blank"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
                         </ul>
                     </div>
 
