@@ -40,8 +40,8 @@ const Contact = () => {
             {/* social icon container */}
             <div className="social-icon-container">
                 <ul>
-                    <li> <a href="https://github.com/adityapal87" target="_blank"> <img src={github} alt="github" className='github' /> </a> </li>
-                    <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/" target="_blank"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
+                    <li> <a href="https://github.com/adityapal87" target="_blank" rel="noopener"> <img src={github} alt="github" className='github' /> </a> </li>
+                    <li> <a href="https://www.linkedin.com/in/aditya-pal-526121233/" target="_blank" rel="noopener"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
                 </ul>
 
 
