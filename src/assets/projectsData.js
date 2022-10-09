@@ -13,7 +13,6 @@ export const projectsData = [
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
         projectUrl: 'http://theleanprogrammer.com/flashtype/',
     },
-  
     {
         projectName: 'PokemonSpace!',
         projectDescription:

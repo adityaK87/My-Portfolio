@@ -26,7 +26,7 @@ const HomeFooter = () => {
             </div>
 
             <div className="copyright">
-                <div class="copyright-section">© 2022 - Aditya Kumar</div>
+                <div class="copyright-section">© {new Date().getFullYear()} - Aditya Kumar</div>
             </div>
         </div>
     );
