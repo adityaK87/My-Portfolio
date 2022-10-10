@@ -15,6 +15,10 @@ export const skillList = [
         skillName: 'React',
         skillUrl: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg',
     },
+    {
+        skillName: 'Scss',
+        skillUrl: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+    },
    
     {
         skillName: 'TypeScript',
