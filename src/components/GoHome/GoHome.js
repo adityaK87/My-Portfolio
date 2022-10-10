@@ -13,7 +13,7 @@ const GoHome = () => {
     const navigate = useNavigate();
     // console.log(navigate)
     const location = useLocation()
-    console.log(location)
+    // console.log(location)
 
     const navigateToHome = () => {
         navigate("/");
