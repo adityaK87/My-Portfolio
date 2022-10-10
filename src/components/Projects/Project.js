@@ -21,15 +21,16 @@ const Project = () => {
             projectName,
             projectDescription,
             imageUrl,
-            projectUrl
+            projectUrl,
+            codeUrl
           }) => {
             return <ProjectsCard
               key={projectName}
               projectName={projectName}
               projectDescription={projectDescription}
               imageUrl={imageUrl}
-              projectUrl={projectUrl} />
-
+              projectUrl={projectUrl}
+              codeUrl={codeUrl} />
           })
         }
       </div>
