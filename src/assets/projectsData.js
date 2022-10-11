@@ -10,9 +10,9 @@ export const projectsData = [
     {
         projectName: 'Typing-test',
         projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
+            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm).',
         imageUrl: 'https://raw.githubusercontent.com/adityapal87/My-Portfolio/main/src/assets/typing-test.png',
-        projectUrl: 'http://theleanprogrammer.com/flashtype/',
+        projectUrl: 'https://test-typing-speed.herokuapp.com/',
         codeUrl: "https://github.com/adityapal87/Typing-test",
     },
     {
