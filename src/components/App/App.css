@@ -36,7 +36,7 @@ select:focus{
 
  [data-theme="light"] {
     --font-color: #000;
-    --background-color: #5facdc;
+    --background-color: #03a4ff;
     --link-color: #1900ff;
   }
   

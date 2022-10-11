@@ -52,7 +52,7 @@
     /* background: linear-gradient(39.97deg , #8b2917 0.79% ,#1b4493 79.29%) */
     height: 100vh;
     padding: 2.5em 1.5em 0 0;
-    background: #42789a;
+    background: #03a4ff;
     color: #000 !important;
 }
 
@@ -64,12 +64,15 @@
     position: relative;
     font-size: 2em;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-family: monospace;
     font-style: normal;
     font-weight: normal;
     padding: 10px;
 
+}
+[data-theme = "dark"] .menu-item{
+    color: #fff;
 }
 
 .menu-item:before {
@@ -88,6 +91,12 @@
     font-weight: 500;
     color: #f57159;
 }
+[data-theme = "dark"] .active-item{
+    font-weight: 500;
+    color: #f57159;
+
+}
+
 
 
 .menu-item:hover:before,
