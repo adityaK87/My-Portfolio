@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A  Multi Page fully responsive website that shows My MySkills , MyProjects etc.
+This  responsive website shows My MySkills , MyProjects etc.
 
 As a developer/designer, We should definitely have our own portfolio website. So this is My Portfolio Website.
 
