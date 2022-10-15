@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About'
 import Project from '../Projects/Project';
