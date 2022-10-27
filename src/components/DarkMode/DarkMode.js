@@ -22,6 +22,8 @@ const defaultDark =
 
 if (defaultDark) {
   setDark();
+}else{
+  setLight();
 }
 
 const toggleTheme = (e) => {
@@ -58,10 +60,9 @@ const DarkMode = () => {
       <label
         htmlFor="checkbox"
         className="label toggle-theme checkbox">
-
         <i className='fas fa-sun'></i>
         <i className="fas fa-moon"></i>
-        <div className='ball ' />
+        <div className='ball' />
       </label>
     </div>
   );
