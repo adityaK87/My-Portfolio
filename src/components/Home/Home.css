@@ -1,147 +1,144 @@
 .home-container {
-    /* background: rgba(16, 24, 39, 1); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
-    padding: 82px 10%;
-    min-height: 100vh;
-    overflow-x: hidden;
-    box-sizing: border-box;
-
+  /* background: rgba(16, 24, 39, 1); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  padding: 82px 10%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .header-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header-text>h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 3em;
-    line-height: 50px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: var(--font-color);
-    margin: 10px;
+.header-text > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3em;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--font-color);
+  margin: 10px;
 }
 
 [data-theme="light"] {
-    color: black;
+  color: black;
 }
 
 [data-theme="dark"] {
-    color: #fff;
+  color: #fff;
+}
+.frontName {
+  font-family: "sacramento", cursive;
+  font-size: 2rem;
 }
 
-.header-text>p {
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 13px;
-    color: #ebd8d2;
-    margin: 10px;
-    text-align: center;
-    margin: 10px;
+.header-text > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 13px;
+  color: #ebd8d2;
+  margin: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
 .head-btns {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 35px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px 10px;
 }
 
 .btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 12px;
-    height: 33px;
-    left: 0px;
-    top: 0px;
-    text-decoration: none;
-    box-shadow: 0 4px 31px rgba(0 0 0 0.15);
-    border-radius: 35px;
-    margin: 4px;
-    background: #FB4C2D;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12px;
+  height: 33px;
+  left: 0px;
+  top: 0px;
+  text-decoration: none;
+  box-shadow: 0 4px 31px rgba(0 0 0 0.15);
+  border-radius: 35px;
+  margin: 4px;
+  background: #fb4c2d;
 }
 
 .btn-white,
 .btn-transparent {
-    border: 1px dashed #FB4C2D;
-    box-sizing: border-box;
-    background: black;
-    background: #f57159;
-    color: #000;
+  border: 1px dashed #fb4c2d;
+  box-sizing: border-box;
+  background: black;
+  background: #f57159;
+  color: #000;
 }
 
 .btn:hover {
-    background: none;
-    color: #FB4C2D;
+  background: none;
+  color: #fb4c2d;
 }
-
-
-
 
 .btn:hover {
-    box-shadow: 1px 10px 32px rgba(0 0 0 0.15);
-    transition: all 0.2s ease-in-out;
+  box-shadow: 1px 10px 32px rgba(0 0 0 0.15);
+  transition: all 0.2s ease-in-out;
 }
-
-
 
 .splash-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-anime {
-    margin-bottom: -80px;
-    width: 600px;
+  margin-bottom: -80px;
+  width: 600px;
 }
 
 /* for small height sizes screen */
-@media only screen and (max-width:800px) {
-    .home-anime {
-        width: 500px;
-    }
+@media only screen and (max-width: 800px) {
+  .home-anime {
+    width: 500px;
+  }
 }
 
-@media only screen and (max-width:690px) {
-    .home-anime {
-        width: 400px;
-    }
+@media only screen and (max-width: 690px) {
+  .home-anime {
+    width: 400px;
+  }
 }
 
-@media only screen and (max-width:645px) {
-    .home-anime {
-        width: 350px;
-    }
+@media only screen and (max-width: 645px) {
+  .home-anime {
+    width: 350px;
+  }
 }
 
 /* for small width screen sizes */
-@media only screen and (max-width:527px) {
-    .home-anime {
-        width: 300px;
-    }
+@media only screen and (max-width: 527px) {
+  .home-anime {
+    width: 300px;
+  }
 
-    .header-text>h1 {
-        font-size: 2em;
-        line-height: 30px;
-        font-weight: 700;
-    }
+  .header-text > h1 {
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: 700;
+  }
 
-    .header-text>p {
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 16px;
-    }
+  .header-text > p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+  }
 }
