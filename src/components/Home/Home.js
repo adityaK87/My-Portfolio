@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import homeAnime from '../../assets/home_anime.gif';
+// import homeAnime from '../../assets/home_anime.gif';
+import homepic from '../../assets/home_pic.jpg';
 const Home = () => {
     return (
         <div>
@@ -20,7 +21,7 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="splash-img">
-                    <img src={homeAnime} alt="Animation" className='home-anime' />
+                    <img src={homepic} alt="Animation" className='home-anime' />
                 </div>
             </div>
         </div>
