@@ -18,7 +18,7 @@ const About = () => {
                     {/* sub-section 1 */}
                     <h3 className="about-sub-head">Studying about programming and Web Developement</h3>
                     <p className="about-details">
-                        <Link to='/projects' className='about-link-element'>check out my projects</Link></p>
+                        <Link to='/skills' className='about-link-element'>check out my skills</Link></p>
 
 
                     {/* sub-section 2 */}

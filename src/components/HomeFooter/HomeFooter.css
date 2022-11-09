@@ -34,11 +34,13 @@
   /* color: #ffffff !important; */
   font-size: 3em !important;
   font-size: 35px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
 
 .my-details {
   font-size: 15px;
+  margin: 0px;
 }
 
 .social-media {
@@ -72,6 +74,7 @@ ul {
 
 .madewithlove {
   text-align: center;
+  margin: 0px;
 }
 
 strong,

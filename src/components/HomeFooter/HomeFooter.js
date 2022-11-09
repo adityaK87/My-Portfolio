@@ -30,8 +30,7 @@ const HomeFooter = () => {
                 Feel free to copy. If you need any help, ping me !
             </p> */}
             <div className="large-4 columns">
-                <p className="footTitle alignCenter"> </p>
-                <h2 className='my-name'>Aditya Kumar</h2>
+                {/* <h2 className='my-name'>Aditya Kumar</h2> */}
                 <p class="madewithlove">
                     Made with <i className="fa fa-heart" ></i> in India
                 </p>
