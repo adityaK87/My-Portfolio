@@ -15,7 +15,7 @@
 
 /* color to our burger icon on hover */
 .bm-burger-bars-hover {
-   background-color: #e17663;
+   background-color: #5678c2;
 }
 
 /* size of the cross button */
@@ -37,6 +37,7 @@
    position: fixed;
    height: 100vh;
    overflow-x: hidden;
+   overflow-y: hidden !important;
    box-shadow: 0 4px 34px rgba(0 0 0 0.15);
 }
 

@@ -1,126 +1,117 @@
 .project-card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 40px;
-    align-self: center;
-    justify-content: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 40px;
+   align-self: center;
+   justify-content: center;
 }
 
 .project-card {
-    width: 376px;
-    min-height: -moz-fit-content;
-    min-height: fit-content;
-    background: #fff;
-    color: #000;
-    box-shadow: 4px 4px 8px rgb(228 234 246 / 25%);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
+   width: 376px;
+   min-height: -moz-fit-content;
+   min-height: fit-content;
+   background: #fff;
+   color: #000;
+   box-shadow: 4px 4px 8px rgb(228 234 246 / 25%);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+   border: 1px solid;
 }
 
-
 .project-card:hover {
-    /* box-shadow: 0px 40px 50px; */
-    transition: all 0.3s;
+   /* box-shadow: 0px 40px 50px; */
+   transition: all 0.3s;
 }
 
 .image-container {
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-
-
+   width: 100%;
+   border-radius: 20px 20px 0px 0px;
 }
-
-
 
 .project-image {
-    display: block;
-    border-radius: 7px 7px 0px 0px;
-    /* float: left; */
-    width: 100%;
-    height: 214px;
-    /* object-fit: cover; */
+   display: block;
+   border-radius: 7px 7px 0px 0px;
+   /* float: left; */
+   width: 100%;
+   height: 214px;
+   /* object-fit: cover; */
 }
 
-
 .project-detail-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-start;
-    /* padding: 20px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-self: flex-start;
+   /* padding: 20px; */
 }
 
 .project-heading {
-    margin: 0px;
-    padding: 5px 8px;
+   margin: 0px;
+   padding: 5px 8px;
 }
 
 .project-detail {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    padding: 5px 8px;
-    line-height: 20px;
-    font-style: unset;
-    font-weight: 300;
-    color: #4e4747;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 28px;
+   padding: 5px 8px;
+   line-height: 20px;
+   font-style: unset;
+   font-weight: 300;
+   color: #4e4747;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 10px;
-    justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin-bottom: 10px;
+   justify-content: space-between;
 }
 
 .visit {
-    padding: 6px 15px;
-    background: none;
-    border-radius: 5px;
-    margin: 0px 8px;
-    color: #fff;
-    background: #1a1a1d;
-    border: 1px solid grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    /* border: none; */
+   padding: 6px 15px;
+   background: none;
+   border-radius: 5px;
+   margin: 0px 8px;
+   color: #fff;
+   background: #1a1a1d;
+   border: 1px solid grey;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   /* border: none; */
 }
 
 .visit:hover {
-    cursor: pointer;
-    background: none;
-    color: #000;
-    font-weight: 600;
-    transition: all 0.5s;
+   cursor: pointer;
+   background: none;
+   color: #000;
+   font-weight: 600;
+   transition: all 0.5s;
 }
 
+@media only screen and (max-width: 970px) {
+   .project-card-container {
+      padding: 20px;
+   }
 
-
-@media only screen and (max-width:970px) {
-    .project-card-container {
-        padding: 20px;
-    }
-
-    .project-card {
-        width: 350px;
-        min-height: fit-content;
-    }
-
+   .project-card {
+      width: 350px;
+      min-height: fit-content;
+   }
 }
 
-@media only screen and (max-width:400px) {
-    .project-card-container {
-        padding: 20px;
-    }
+@media only screen and (max-width: 400px) {
+   .project-card-container {
+      padding: 20px;
+   }
 
-    .project-card {
-        width: 227px;
-        min-height: fit-content;
-    }
-
+   .project-card {
+      width: 227px;
+      min-height: fit-content;
+   }
 }
