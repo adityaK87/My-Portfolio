@@ -1,145 +1,166 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
 .home-container {
-  /* background: rgba(16, 24, 39, 1); */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow-y: auto;
-  padding: 82px 10%;
-  min-height: 100vh;
-  overflow-x: hidden;
-  box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2px 10%;
+   min-height: 100vh;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   box-sizing: border-box;
 }
 
 .header-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .header-text > h1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 3em;
-  line-height: 50px;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: var(--font-color);
-  margin: 10px;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 3em;
+   line-height: 50px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: var(--font-color);
+   margin: 10px;
 }
 
 [data-theme="light"] {
-  color: black;
+   color: black;
 }
 
 [data-theme="dark"] {
-  color: #fff;
+   color: #fff;
 }
 .frontName {
-  font-family: "sacramento", cursive;
-  font-size: 2rem;
+   font-family: "sacramento", cursive;
+   font-size: 2rem;
 }
 
 .header-text > p {
-  font-family: Poppins;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 13px;
-  color: #ebd8d2;
-  margin: 10px;
-  text-align: center;
-  margin: 10px;
+   font-family: Poppins;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 13px;
+   color: #2769b2;
+   margin: 10px;
+   text-align: center;
+   margin: 10px;
 }
 
 .head-btns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 35px 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 35px 10px;
+   padding: 5px 10px;
 }
 
 .btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 12px;
-  height: 33px;
-  left: 0px;
-  top: 0px;
-  text-decoration: none;
-  box-shadow: 0 4px 31px rgba(0 0 0 0.15);
-  border-radius: 35px;
-  margin: 4px;
-  background: #fb4c2d;
-}
-
-.btn-white,
-.btn-transparent {
-  border: 1px dashed #fb4c2d;
-  box-sizing: border-box;
-  background: black;
-  background: #f57159;
-  color: #000;
+   align-items: center;
+   appearance: none;
+   background-color: #fcfcfd;
+   border-width: 0;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #36395a;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono", monospace;
+   height: 48px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow 0.15s, transform 0.15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow, transform;
+   font-size: 18px;
+   margin: 0px 12px;
+   border-radius: 35px;
 }
 
 .btn:hover {
-  background: none;
-  color: #fb4c2d;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+   transform: translateY(-2px);
 }
 
-.btn:hover {
-  box-shadow: 1px 10px 32px rgba(0 0 0 0.15);
-  transition: all 0.2s ease-in-out;
+.btn:focus {
+   box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
 }
 
+.btn:active {
+   box-shadow: #d6d6e7 0 3px 7px inset;
+   transform: translateY(2px);
+}
 .splash-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .home-anime {
-  border-radius: 15px;
-  margin-bottom: -80px;
-  width: 600px;
+   border-radius: 15px;
+   margin-bottom: -80px;
+   width: 600px;
 }
 
 /* for small height sizes screen */
 @media only screen and (max-width: 800px) {
-  .home-anime {
-    width: 500px;
-  }
+   .home-anime {
+      width: 500px;
+   }
 }
 
 @media only screen and (max-width: 690px) {
-  .home-anime {
-    width: 400px;
-  }
+   .home-anime {
+      width: 400px;
+   }
 }
 
 @media only screen and (max-width: 645px) {
-  .home-anime {
-    width: 350px;
-  }
+   .home-anime {
+      width: 350px;
+   }
+   .btn {
+      margin: 12px;
+   }
 }
 
 /* for small width screen sizes */
 @media only screen and (max-width: 527px) {
-  .home-anime {
-    width: 300px;
-  }
+   .home-anime {
+      width: 300px;
+   }
 
-  .header-text > h1 {
-    font-size: 2em;
-    line-height: 30px;
-    font-weight: 700;
-  }
+   .header-text > h1 {
+      font-size: 2em;
+      line-height: 30px;
+      font-weight: 700;
+   }
 
-  .header-text > p {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 16px;
-  }
+   .header-text > p {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 16px;
+   }
 }

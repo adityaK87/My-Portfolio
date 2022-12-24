@@ -14,7 +14,7 @@ import { useLocation } from 'react-router-dom';
 import DarkMode from '../DarkMode/DarkMode';
 
 const App = () => {
-    const [isHome, setIsHome] = useState(false);
+    const [isHome, setIsHome] = useState(true);
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -35,7 +35,7 @@ const App = () => {
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
-                <GoHome />
+                {isHome ? null : <GoHome />} { /* GoHome Button will not shown on Home Page*/}
                 {isHome && <HomeFooter />}
             </>
         </>

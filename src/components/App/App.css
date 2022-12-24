@@ -1,86 +1,84 @@
 [data-theme="light"] {
-  --font-color: #000;
-  --background-color: #03a4ff;
-  --link-color: #1900ff;
+   --font-color: #000;
+   --background-color: #b5c0c5;
+   --link-color: #1900ff;
 }
 
 [data-theme="dark"] {
-  --font-color: #FB4C2D;
-  --background-color: #1a1a1d;
-  /* --link-color: lightblue; */
+   --font-color: #fb4c2d;
+   --background-color: #1a1a1d;
+   /* --link-color: lightblue; */
 }
 
 body {
-  min-height: 100vh;
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-  top: 0%;
-  background-color: var(--background-color);
+   min-height: 100vh;
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0;
+   overflow-x: hidden;
+   font-family: "Poppins", sans-serif;
+   top: 0%;
+   background-color: var(--background-color);
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  outline: none;
+   outline: none;
 }
 
 .section-container {
-  box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-  padding: 50px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  /* background: #e4e8dc; */
+   box-sizing: border-box;
+   min-height: 100vh;
+   position: relative;
+   padding: 50px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   /* background: #e4e8dc; */
 }
 
 /* for small width screen */
-@media only screen and (max-width:640px) {
-  .section-container {
-    padding: 100px 0px;
-  }
+@media only screen and (max-width: 640px) {
+   .section-container {
+      padding: 100px 0px;
+   }
 }
-
 
 a {
-  color: var(--link-color);
+   color: var(--link-color);
 }
-
 
 /* Custom Dark Mode Toggle Element */
 
 .toggle-theme-wrapper {
-  position: absolute;
-  right: 20px;
-  top: 25px;
-  z-index: 1;
-  margin: 0px;
-  padding: 0px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
+   position: absolute;
+   right: 20px;
+   top: 25px;
+   z-index: 1;
+   margin: 0px;
+   padding: 0px;
+   border: none;
+   background: transparent;
+   cursor: pointer;
 }
 
 .toggle-theme-wrapper span {
-  font-size: 28px;
-  margin: 0 4px;
+   font-size: 28px;
+   margin: 0 4px;
 }
 
 .toggle-theme {
-  position: relative;
-  display: inline-block;
-  height: 34px;
-  width: 60px;
+   position: relative;
+   display: inline-block;
+   height: 34px;
+   width: 60px;
 }
 
 .toggle-theme input {
-  display: none;
+   display: none;
 }
 
 /* .slider {
