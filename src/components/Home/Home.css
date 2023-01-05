@@ -8,7 +8,7 @@
    justify-content: center;
    align-items: center;
    padding: 2px 10%;
-   min-height: 100vh;
+   min-height: 78vh;
    overflow-x: hidden;
    overflow-y: hidden;
    box-sizing: border-box;
@@ -60,7 +60,7 @@
    flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
-   margin: 35px 10px;
+   margin: 3px 3px;
    padding: 5px 10px;
 }
 
@@ -120,11 +120,16 @@
 
 .home-anime {
    border-radius: 15px;
-   margin-bottom: -80px;
-   width: 600px;
+   margin-bottom: -22px;
+   width: 500px;
 }
 
 /* for small height sizes screen */
+@media only screen and (max-width: 414px) {
+   .home-container {
+      padding-top: 35px;
+   }
+}
 @media only screen and (max-width: 800px) {
    .home-anime {
       width: 500px;

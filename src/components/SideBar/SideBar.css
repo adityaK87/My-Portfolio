@@ -58,6 +58,7 @@
 
 .bm-item-list {
    padding: 0.8em;
+   height: 0px !important;
 }
 
 .menu-item {
@@ -95,8 +96,7 @@
    color: #2769b2;
 }
 
-.menu-item:hover:before,
-.active-item:before {
+.menu-item:hover:before {
    visibility: visible;
    height: 3px;
 }

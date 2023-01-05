@@ -1,8 +1,8 @@
 .about-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 60px 80px 80px 80px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0px 80px 0px 80px;
 }
 
 /* .about-link-element {
@@ -11,32 +11,31 @@
 
 .about-main-left,
 .about-main-right {
-    width: 50%;
+   width: 50%;
 }
 
 .about-main-right {
-    display: flex;
-    justify-content: flex-end;
+   display: flex;
+   justify-content: flex-end;
 }
 
-
 .about-main-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .about-sub-head {
-    margin: 0%;
+   margin: 0%;
 }
 
 .about-details {
-    margin: 10px 0px 32px 0px;
+   margin: 10px 0px 32px 0px;
 }
 
 .about-anime {
-    margin-right: -68px;
-    width: 520px;
-    max-width: 100%;
-    max-height: 100%;
+   margin-right: -68px;
+   width: 520px;
+   max-width: 100%;
+   max-height: 100%;
 }
