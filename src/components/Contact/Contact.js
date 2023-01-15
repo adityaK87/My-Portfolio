@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import FooterLink from '../FooterLink/FooterLink';
 import github from '../../assets/gitLogo1.png';
 import linkedin from '../../assets/li.png';
+import twitter from '../../assets/twitterLogo.png';
 
 
 const Contact = () => {
@@ -40,8 +41,10 @@ const Contact = () => {
             {/* social icon container */}
             <div className="social-icon-container">
                 <ul>
-                    <li> <a href="https://github.com/adityapal87" target="_blank" rel="noreferrer"> <img src={github} alt="github" className='github' /> </a> </li>
-                    <li> <a href="https://www.linkedin.com/in/adityapal87/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
+                    <li> <a href="https://github.com/adityaK87" target="_blank" rel="noreferrer"> <img src={github} alt="github" className='github' /> </a> </li>
+                    <li> <a href="https://www.linkedin.com/in/adityak87/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" className='linkedin' /></a> </li>
+                    <li> <a href="https://twitter.com/aditya_K87" target="_blank" rel="noreferrer"><img src={twitter} alt="linkedin" className='linkedin' /></a> </li>
+
                 </ul>
 
 
