@@ -1,54 +1,59 @@
 .skill-card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    margin: 80px 20%;
-    padding: 20px 20px 20px 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	margin: 50px 10%;
+	padding: 20px 20px 20px 20px;
 }
 
-
 .skills-vector-frame {
-    position: absolute;
-    display: flex;
-    flex-direction: row-reverse;
-    right: 0;
-    bottom: 0%;
-    z-index: -10;
-    width: 80%;
+	position: absolute;
+	display: flex;
+	flex-direction: row-reverse;
+	right: 0;
+	bottom: 0%;
+	z-index: -10;
+	width: 80%;
 }
 
 .skills-vector {
-    max-height: 100%;
-    width: 100%;
+	max-height: 100%;
+	width: 100%;
 }
 
 .skill {
-    display: flex;
-    flex-direction: column;
-    width: 122px;
-    align-items: center;
-    margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 122px;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
-.skill>img {
-    width: 63px;
-    margin-bottom: -10px;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+.skill > img {
+	width: 63px;
+	margin-bottom: -10px;
+	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.skill>p {
-    font-family: monospace;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #e8e8e8;
+.skill > p {
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	color: #e8e8e8;
+	padding: 15px 0px;
 }
 
-[data-theme="light"] .skill>p{
-    color: #000;
+[data-theme="light"] .skill > p {
+	color: #000;
+}
 
+@media only screen and (max-width: 478px) {
+	.skill-card-container {
+		margin: 40px 2%;
+	}
 }
