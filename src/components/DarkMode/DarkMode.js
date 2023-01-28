@@ -22,7 +22,7 @@ const defaultDark =
 
 if (defaultDark) {
   setDark();
-}else{
+} else {
   setLight();
 }
 
@@ -38,7 +38,7 @@ const DarkMode = () => {
   return (
     <div className="toggle-theme-wrapper">
       {/* <label className="toggle-theme checkbox" htmlFor="checkbox">
-        <i class="fa-light fa-sun"></i>
+        <i className="fa-light fa-sun"></i>
         <input
           className='checkbox'
           type="checkbox"
@@ -46,7 +46,7 @@ const DarkMode = () => {
           onChange={toggleTheme}
           defaultChecked={defaultDark}
         />
-        <i class="fa-light fa-moon"></i>
+        <i className="fa-light fa-moon"></i>
         <div className="slider round"></div>
       </label> */}
 

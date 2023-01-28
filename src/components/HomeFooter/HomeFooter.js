@@ -33,7 +33,7 @@ const HomeFooter = () => {
             </p> */}
             <div className="large-4 columns">
                 {/* <h2 className='my-name'>Aditya Kumar</h2> */}
-                <p class="madewithlove">
+                <p className="madewithlove">
                     Made with <i className="fa fa-heart" ></i> in India
                 </p>
             </div>
