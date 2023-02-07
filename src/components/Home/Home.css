@@ -123,14 +123,14 @@
 	width: 500px;
 }
 .resume-links {
-	padding: 6px 8px;
+	padding: 4px 6px;
 	border: 1px solid;
 	border-radius: 8px;
 	color: #36395a;
 }
 .download-btn {
 	margin-right: 4px;
-	margin-left: 5px;
+	margin-left: 10px;
 }
 .preview-btn {
 	margin-left: 4px;
