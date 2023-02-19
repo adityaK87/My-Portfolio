@@ -32,13 +32,20 @@ const Home = () => {
 								className='resume-links download-btn'>
 								<TfiDownload />
 							</a>
-							<Link
-								className='resume-links preview-btn'
+							<a
 								target='_blank'
+								rel='noreferrer'
+								href='https://drive.google.com/file/d/1zdKsiKJUsHut-iAROg-blz9Nmwx6uiL6/view?usp=sharing'
+								className='resume-links download-btn'>
+								<BsEye />
+							</a>
+							{/* <Link
+								className='resume-links preview-btn'
+								// target='_blank'
 								rel='noreferrer'
 								to='/resume'>
 								<BsEye />
-							</Link>
+							</Link> */}
 						</>
 					</div>
 					<Link to='/contact' className='btn '>
