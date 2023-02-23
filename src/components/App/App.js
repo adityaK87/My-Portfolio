@@ -30,14 +30,14 @@ const App = () => {
 			<>
 				<SideBar />
 				<Routes>
-					<Route path='/' exact element={<Home />} />
+					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/projects' element={<Project />} />
 					<Route path='/skills' element={<Skills />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/resume' element={<PreviewPDF />} />
 				</Routes>
-				{isHome ? null : <GoHome />}{" "}
+				{isHome ? null : <GoHome />}
 				{/* GoHome Button will not shown on Home Page*/}
 				{isHome && <HomeFooter />}
 			</>

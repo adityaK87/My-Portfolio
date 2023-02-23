@@ -4,8 +4,8 @@
 }
 .bm-burger-button {
 	position: fixed;
-	width: 30px;
-	height: 20px;
+	width: 26px;
+	height: 18px;
 	left: 1rem;
 	top: 30px;
 }
@@ -13,6 +13,8 @@
 /* color to our burger button */
 .bm-burger-bars {
 	background-color: var(--btn-background-color);
+	height: 15% !important;
+	border-radius: 2px;
 }
 
 /* color to our burger icon on hover */
@@ -104,3 +106,9 @@
 		width: fit-content !important;
 	}
 }
+ @media screen and (max-width: 425px) {
+	.bm-burger-bars{
+		/* width: 2px; */
+		height: 15% !important;
+	}
+ }
