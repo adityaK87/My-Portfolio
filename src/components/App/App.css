@@ -1,13 +1,32 @@
+:root{
+   --btn-font-color:#fff;
+   --btn-background-color:#576ee0;
+   --btn-background-color-on-hover:#435acb;
+   --contact-input-background-color:#fff;
+   --contact-input-border-color:#fff;
+   --font-family:'Poppins',sans-serif;
+   --sidebar-link-color:#576ee0;
+   --border-radius : 0.5rem;
+   --transition :0.3s;
+}
+
 [data-theme="light"] {
-   --font-color: #000;
-   --background-color: #f9fafb;
-   --link-color: #1900ff;
+   --font-color: #232429;
+   --background-color: #fbfbfe;
+   --link-color: #576ee0;
+   --paragraph-font-color:#6a6d7c;
+   --project-card-background-color:#fff;
+   
 }
 
 [data-theme="dark"] {
-   --font-color: #fb4c2d;
-   --background-color: #1a1a1d;
+   --home-footer-background-color:#0e101b;
+   --paragraph-font-color:#babcc4;
    /* --link-color: lightblue; */
+   --font-color: #f1f2f3;
+   /* --background-color: #16213E; */
+   --background-color: #161927;
+   --project-card-background-color:#1d2135;
 }
 
 body {
@@ -16,30 +35,30 @@ body {
    width: 100%;
    margin: 0;
    overflow-x: hidden;
-   font-family: "Poppins", sans-serif;
+   font-family: var(--font-family);
    top: 0%;
    background-color: var(--background-color);
+   transition: var(--transition);
 }
 /* width */
 ::-webkit-scrollbar {
-   width: 8px;
+   width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-   background: #fffefe;
    border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-   background: #9d9898;
+   background: var(--btn-background-color);
    border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-   background: #555;
+   background: var(--btn-background-color-on-hover);
 }
 
 input:focus,
@@ -100,41 +119,3 @@ a {
 .toggle-theme input {
    display: none;
 }
-
-/* .slider {
-    background-color: #ccc;
-    position: absolute;
-    cursor: pointer;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    transition: 0.2s;
-  } */
-
-/* .slider:before {
-    background-color: #fff;
-    bottom: 4px;
-    content: "";
-    height: 26px;
-    left: 4px;
-    position: absolute;
-    transition: 0.4s;
-    width: 26px;
-  } */
-
-/* input:checked + .slider:before {
-    transform: translateX(26px);
-  } */
-
-/* input:checked + .slider {
-    background-color: cornflowerblue;
-  } */
-
-/* .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  } */

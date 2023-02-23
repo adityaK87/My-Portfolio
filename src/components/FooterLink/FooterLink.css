@@ -1,15 +1,13 @@
 .footer-link{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 40px;
     text-align: center;
+    font-family: 'Poppins' sans-serif;
     letter-spacing: -0.015em;
 }
-[data-theme="dark"]
+
 .footer-link-element{
-    color: #fff ;
-}
-[data-theme="light"]
-.footer-link-element{
-    color: #000;
+    color: var(--font-color) ;
+    transition: var(--transition);
 }

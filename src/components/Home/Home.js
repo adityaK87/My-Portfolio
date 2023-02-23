@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import homeAnime from "../../assets/home_anime.gif";
-import Resume from "../../assets/Aditya-Kumar-Resume.pdf";
-import { TfiDownload } from "react-icons/tfi";
+import Resume from "../../assets/pdf/Aditya-Kumar-Resume.pdf";
+import { CgSoftwareDownload } from "react-icons/cg";
 import { BsEye } from "react-icons/bs";
 
 const Home = () => {
@@ -16,10 +16,10 @@ const Home = () => {
 						This is{" "}
 						<span className='frontName'>
 							<b>
-								<i>Aditya,</i>
+								<i>Aditya , </i>
 							</b>
 						</span>
-						a frontend developer!{" "}
+						a frontend developer!
 					</p>
 				</div>
 				<div className='head-btns'>
@@ -30,7 +30,7 @@ const Home = () => {
 								href={Resume}
 								download='Aditya-Resume.pdf'
 								className='resume-links download-btn'>
-								<TfiDownload />
+								<CgSoftwareDownload />
 							</a>
 							<a
 								target='_blank'
@@ -39,13 +39,13 @@ const Home = () => {
 								className='resume-links download-btn'>
 								<BsEye />
 							</a>
-							{/* <Link
-								className='resume-links preview-btn'
-								// target='_blank'
+							{/* <a
+								target='_blank'
+								href='../../assets/pdf/Aditya-Kumar-Resume.pdf'
 								rel='noreferrer'
-								to='/resume'>
+								className='resume-links download-btn'>
 								<BsEye />
-							</Link> */}
+							</a> */}
 						</>
 					</div>
 					<Link to='/contact' className='btn '>

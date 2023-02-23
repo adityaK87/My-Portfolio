@@ -1,6 +1,11 @@
 .toggle-theme-wrapper {
     flex-direction: row;
     float: right;
+    position: fixed;
+    width: 30px;
+    height: 20px;
+    right: 1rem;
+    top: 30px;
 }
 
 
@@ -10,9 +15,9 @@
   }
   
   .label {
-    width: 40px;
-    height: 14px;
-    background-color: #4e4747;
+    width: 34px;
+    height: 10px;
+    background-color: var(--btn-background-color);
     display: flex;
     border-radius: 50px;
     align-items: center;
@@ -28,12 +33,12 @@
   }
   
   .ball {
-    width: 20px;
-    height: 20px;
-    background-color: white;
+    width: 17px;
+    height: 16px;
+    background-color: #1e2755;
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 1.5px;
+    left: 1.5px;
     border-radius: 50%;
     transition: transform 0.2s linear;
   }
@@ -43,10 +48,13 @@
     transform: translateX(24px);
   }
   
-  .fa-moon {
-    color: pink;
-  }
-  
-  .fa-sun {
+  .toggle-theme {
     color: yellow;
+    font-size: 12px;
+
+  }
+  .toggle-theme > span{
+    color: pink;
+    font-size: 12px;
+    margin: 1px;
   }

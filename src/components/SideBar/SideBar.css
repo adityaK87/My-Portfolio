@@ -6,18 +6,18 @@
 	position: fixed;
 	width: 30px;
 	height: 20px;
-	left: 10px;
+	left: 1rem;
 	top: 30px;
 }
 
 /* color to our burger button */
 .bm-burger-bars {
-	background-color: #2d6ffb;
+	background-color: var(--btn-background-color);
 }
 
 /* color to our burger icon on hover */
 .bm-burger-bars-hover {
-	background-color: #5678c2;
+	background-color: var(--btn-background-color-on-hover)!important;
 }
 
 /* size of the cross button */
@@ -25,15 +25,18 @@
 	position: absolute;
 	width: 24px;
 	height: 24px;
-	right: 20px !important;
+	right: 6px !important;
 	top: 10px;
 }
 
+
 /* color of cross button */
 .bm-cross {
-	background-color: #2769b2;
+	background-color: var(--btn-background-color) ;
 }
-
+.bm-cross-hover{
+	background-color: var(--btn-background-color-on-hover);
+}
 /* sidebar  wrapper styles */
 .bm-menu-wrap {
 	position: fixed;
@@ -42,24 +45,15 @@
 	overflow-y: hidden !important;
 	box-shadow: 0 4px 34px rgba(0 0 0 0.15);
 }
-
-[data-theme="dark"] .bm-menu {
-	/* background: linear-gradient(39.97deg , #8b2917 0.79% ,#1b4493 79.29%) ; */
-	padding: 2.5em 1.5em 0 0;
-	background: #000;
+.bm-menu{
+	padding: 1.5em 0.5em 0 0;
+	background:var(--background-color);
 	height: 100vh;
-}
-
-[data-theme="light"] .bm-menu {
-	/* background: linear-gradient(39.97deg , #8b2917 0.79% ,#1b4493 79.29%) */
-	height: 100vh;
-	padding: 2.5em 1.5em 0 0;
-	background: #b5c0c5;
-	color: #000 !important;
+	color: var(--font-color);
 }
 
 .bm-item-list {
-	padding: 0.8em;
+	padding: 0.8em ;
 	height: 0px !important;
 }
 
@@ -67,15 +61,13 @@
 	position: relative;
 	font-size: 2em;
 	text-decoration: none;
-	color: #000;
-	font-family: monospace;
-	font-style: normal;
-	font-weight: normal;
-	padding: 10px;
+	color: var(--font-color);
+	padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
 }
-[data-theme="dark"] .menu-item {
-	color: #fff;
-}
+
 
 .menu-item:before {
 	content: " ";
@@ -84,18 +76,14 @@
 	height: 0px;
 	bottom: 0;
 	left: 0;
-	background-color: #fff;
+	background-color: var(--font-color);
 	visibility: hidden;
 	transition: all 0.5s ease-in-out;
 }
 
 .active-item {
 	font-weight: 500;
-	color: #2769b2;
-}
-[data-theme="dark"] .active-item {
-	font-weight: 500;
-	color: #2769b2;
+	color: var(--sidebar-link-color);
 }
 
 .menu-item:hover:before {

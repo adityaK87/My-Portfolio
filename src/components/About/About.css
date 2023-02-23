@@ -5,9 +5,7 @@
 	padding: 0px 80px 0px 80px;
 }
 
-/* .about-link-element {
-    color: #000;
-} */
+
 
 .about-main-left,
 .about-main-right {
@@ -27,6 +25,10 @@
 
 .about-sub-head {
 	margin: 0%;
+	font-size: 1em;
+	font-weight: 500;
+	color: var(--paragraph-font-color);
+	transition: var(--transition);
 }
 
 .about-details {
