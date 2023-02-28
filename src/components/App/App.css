@@ -65,6 +65,7 @@ input:focus,
 textarea:focus,
 select:focus {
    outline: none;
+   color:var(--paragraph-font-color);
 }
 
 .section-container {

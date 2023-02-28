@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+import { AiFillGithub } from "react-icons/ai";
 const ProjectsCard = ({
 	projectName,
 	projectDescription,
@@ -29,7 +30,9 @@ const ProjectsCard = ({
 						<button className='visit demo'>Demo</button>
 					</a>
 					<a href={codeUrl} target='_blank' rel='noreferrer'>
-						<button className='visit code'>Get Code</button>
+						<button className='visit code'>
+							Get Code <AiFillGithub />
+						</button>
 					</a>
 				</div>
 			</div>

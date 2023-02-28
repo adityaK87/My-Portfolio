@@ -21,6 +21,8 @@
    margin: 10px 0px;
    line-height: 12px;
    font-weight: 400;
+   color: var(--paragraph-font-color);
+   
 }
 .body-input {
    height: 250px;
