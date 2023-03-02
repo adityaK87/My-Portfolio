@@ -11,7 +11,11 @@ const ProjectsCard = ({
 	return (
 		<div className='project-card'>
 			<div className='image-container'>
-				<a href={projectUrl} className='project-container-link'>
+				<a
+					href={projectUrl}
+					className='project-container-link'
+					rel='noreferrer'
+					target='_blank'>
 					<img
 						loading='lazy'
 						src={imageUrl}
