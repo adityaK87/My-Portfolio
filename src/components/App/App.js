@@ -11,7 +11,6 @@ import GoHome from "../GoHome/GoHome";
 import HomeFooter from "../HomeFooter/HomeFooter";
 import { useLocation } from "react-router-dom";
 import DarkMode from "../DarkMode/DarkMode";
-import PreviewPDF from "../Home/PreviewPDF";
 
 const App = () => {
 	const [isHome, setIsHome] = useState(true);
