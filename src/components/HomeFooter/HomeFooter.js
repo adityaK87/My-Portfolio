@@ -3,6 +3,7 @@ import "./HomeFooter.css";
 import { VscGithubInverted } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiTwitter } from "react-icons/fi";
+import Peerlist from "../../assets/peerlist.png";
 
 const HomeFooter = () => {
 	return (
@@ -47,6 +48,16 @@ const HomeFooter = () => {
 									rel='noreferrer'>
 									<span className='twitter social_btns'>
 										<FiTwitter />
+									</span>
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://peerlist.io/adityak87'
+									target='_blank'
+									rel='noreferrer'>
+									<span className='peerlist social_btns'>
+										<img src={Peerlist} alt='PeerList' />
 									</span>
 								</a>
 							</li>
