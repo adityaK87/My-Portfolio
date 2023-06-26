@@ -44,4 +44,13 @@ export const projectsData = [
 		projectUrl: "https://gomarvel.netlify.app/",
 		codeUrl: "https://github.com/adityaK87/Marvel-Movies-App",
 	},
+	{
+		projectName: "Social-Media-Card",
+		projectDescription:
+			"This fully responsive social media card contains all my social media handle Check it now and Do not forget to follow me there ",
+		imageUrl:
+			"https://raw.githubusercontent.com/adityaK87/My-Portfolio/69d31981a4e3474bbfce5d0a6a1800161ad6681c/src/assets/social-media-app.png",
+		projectUrl: "https://social-media-card-sigma.vercel.app/",
+		codeUrl: "https://github.com/adityaK87/social-media-card",
+	},
 ];
