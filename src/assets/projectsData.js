@@ -35,4 +35,13 @@ export const projectsData = [
 		projectUrl: "https://adityapal.netlify.app/",
 		codeUrl: "https://github.com/adityapal87/My-Portfolio",
 	},
+	{
+		projectName: "Marvel-Movies-App",
+		projectDescription:
+			"Fully responsive Marvel app that fetches data from the API! With just a few taps, you can access your favorite characters, comics, and series.",
+		imageUrl:
+			"https://raw.githubusercontent.com/adityaK87/Marvel-Movies-App/main/src/assets/marvelbg.jpg",
+		projectUrl: "https://gomarvel.netlify.app/",
+		codeUrl: "https://github.com/adityaK87/Marvel-Movies-App",
+	},
 ];
