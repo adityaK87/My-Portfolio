@@ -1,0 +1,16 @@
+{
+    "React": "Das ist React",
+    "Home": "Daheim",
+    "Contact": "Kontaktiere uns",
+    "About": "Über uns",
+    "username": {
+        "label": "Nutzername",
+        "placeholder": "Platzhalter..."
+    },
+    "password": {
+        "label": "Kennwort",
+        "placeholder": "passwort platzhalter..."
+    },
+    "location": "Geben Sie den Standort ein",
+    "Address": "Gib die Adresse ein"
+}

@@ -1,0 +1,16 @@
+{
+    "React": "This is React",
+    "Home": "Home",
+    "Contact": "Contact Us",
+    "About": "About Us",
+    "username": {
+        "label": "username",
+        "placeholder": "placeholder..."
+    },
+    "password": {
+        "label": "password",
+        "placeholder": "password placeholder..."
+    },
+    "location": "Enter the location",
+    "Address": "Enter the address"
+}
