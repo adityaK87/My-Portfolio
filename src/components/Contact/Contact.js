@@ -83,7 +83,7 @@ const Contact = () => {
 							target='_blank'
 							rel='noreferrer'>
 							<span className='peerlist social_btns'>
-								<img src={Peerlist} alt='PeerList' />
+								<img src={Peerlist} alt='PeerList' width='20' />
 							</span>
 						</a>
 					</li>

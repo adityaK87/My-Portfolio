@@ -21,7 +21,9 @@
    margin: 10px 0px;
    line-height: 12px;
    font-weight: 400;
-   color: var(--paragraph-font-color);
+   color: var(--input-box-font-color) !important;
+   font-size: 14px;
+   font-family: "Roboto", "Helvetica Neue",;
    
 }
 .body-input {
