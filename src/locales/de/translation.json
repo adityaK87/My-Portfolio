@@ -22,6 +22,11 @@
         "RESUME": "RESÜMEE",
         "CONNECT WITH ME": "VERBINDE SICH MIT MIR"
     },
+    "HomeFooterContent": {
+        "HomeFooterText": "Ein engagierter Front-End-Entwickler, der nach herausfordernden Möglichkeiten sucht, die mir dabei helfen könnten, meine Fähigkeiten zu verbessern.",
+        "Made with": "Gemacht mit",
+        "in India": "in Indien"
+    },
     "AboutPageContent": {
         "AboutPageHeading": "Über mich!",
         "AboutPageSubHeading": "Student | Begeisterter Front-End-Entwickler, der es liebt, tief in das WIE und WARUM einzutauchen.!",

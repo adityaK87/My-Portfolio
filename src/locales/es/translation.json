@@ -22,6 +22,11 @@
         "RESUME": "CURRÍCULUM",
         "CONNECT WITH ME": "CONECTATE CONMIGO"
     },
+    "HomeFooterContent": {
+        "HomeFooterText": "Un desarrollador front-end dedicado que busca oportunidades desafiantes que podrían ayudarme a mejorar mis habilidades.",
+        "Made with": "Hecho con",
+        "in India": "En India"
+    },
     "AboutPageContent": {
         "AboutPageHeading": "Acerca de mí !",
         "AboutPageSubHeading": "Estudiante | ¡Desarrollador front-end entusiasta al que le encanta profundizar en los CÓMO y POR QUÉ!",
