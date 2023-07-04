@@ -12,5 +12,16 @@
         "placeholder": "passwort platzhalter..."
     },
     "location": "Geben Sie den Standort ein",
-    "Address": "Gib die Adresse ein"
+    "Address": "Gib die Adresse ein",
+    "Projects": "Projekte",
+    "Skills": "Fähigkeiten",
+    "AboutPageContent": {
+        "AboutPageHeading": "Über mich!",
+        "AboutPageSubHeading": "Student | Begeisterter Front-End-Entwickler, der es liebt, tief in das WIE und WARUM einzutauchen.!",
+        "AboutMeParagraph1": "Mein Name ist Aditya Kumar und ich bin ein leidenschaftlicher Frontend-Entwickler. Ich war schon immer fasziniert von der Schnittstelle zwischen Technologie und Design und meinem Interesse daran, visuell beeindruckende und benutzerfreundliche Websites zu erstellen.",
+        "AboutMeParagraph2": "Derzeit absolviere ich einen Bachelor-Abschluss in Computeranwendungen (BCA), um ein tieferes Verständnis für Informatikkonzepte, Programmiersprachen und Softwareentwicklung zu erlangen.",
+        "AboutMeParagraph3": "Ich habe an mehreren Projekten gearbeitet, die derzeit alle im Web eingesetzt werden. Bei diesen Projekten konnte ich meine Fähigkeiten bei der Erstellung responsiver Layouts, der Umsetzung moderner Designtrends und der Optimierung der Website-Leistung unter Beweis stellen.",
+        "AboutFooterList": "Sieh dir mein an ",
+        "AboutFooterLink": "projekte!"
+    }
 }

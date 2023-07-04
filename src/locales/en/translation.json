@@ -5,12 +5,23 @@
     "About": "About Us",
     "username": {
         "label": "username",
-        "placeholder": "placeholder..."
+        "placeholder": "Enter the Username..."
     },
     "password": {
         "label": "password",
         "placeholder": "password placeholder..."
     },
     "location": "Enter the location",
-    "Address": "Enter the address"
+    "Address": "Enter the address",
+    "Projects": "Projects",
+    "Skills": "Skills",
+    "AboutPageContent": {
+        "AboutPageHeading": "About Me!",
+        "AboutPageSubHeading": "Student | Enthusiastic Front End Developer who loves going into the depth of HOWs and WHYs.!",
+        "AboutMeParagraph1": "My name is Aditya Kumar, and I am a passionate front-end developer. I have always been fascinated by the intersection of technology and design, and my interest in creating visually stunning and user-friendlywebsites.",
+        "AboutMeParagraph2": " Currently, I am pursuing a Bachelor's degree in Computer Applications (BCA) to gain a deeper understanding of computer science concepts, programming languages, and software development.",
+        "AboutMeParagraph3": "I have worked on several projects, all of which are currently deployed on the web. These projects have allowed me to showcase my skills in creating responsive layouts, implementing modern design trends, and optimizing website performance.",
+        "AboutFooterList": "check out my ",
+        "AboutFooterLink": "projects!"
+    }
 }

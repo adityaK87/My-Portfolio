@@ -23,8 +23,8 @@ const LanguageSelector = () => {
 			<option className='dropdown-content' value='en'>
 				English
 			</option>
-			<option className='dropdown-content' value='it'>
-				Italian
+			<option className='dropdown-content' value='es'>
+				Español
 			</option>
 		</select>
 	);

@@ -28,7 +28,7 @@ const Home = () => {
 						<>
 							<a
 								href={Resume}
-								download='Aditya-Resume.pdf'
+								download='Aditya-Kumar-Resume.pdf'
 								className='resume-links download-btn'>
 								<CgSoftwareDownload />
 							</a>
