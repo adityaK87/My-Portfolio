@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -11,6 +12,7 @@ const withLocation = (SideBar) => (props) => {
 
 const SideBar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
+	const { t } = useTranslation();
 
 	const location = useLocation();
 	const homeClass = location.pathname === "/" ? "active-item" : "";
@@ -35,32 +37,38 @@ const SideBar = () => {
 				to='/'
 				onClick={() => closeMenu()}
 				className={`menu-item ${homeClass}`}>
-				Home
+				{t("Home")}
 			</Link>
 			<Link
 				to='/about'
 				onClick={() => closeMenu()}
 				className={`menu-item ${aboutClass}`}>
-				About
+				{t("About")}
 			</Link>
 			<Link
 				to='/projects'
 				onClick={() => closeMenu()}
 				className={`menu-item ${projectClass}`}>
-				Projects
+				{t("Projects")}
 			</Link>
 			<Link
 				to='/skills'
 				onClick={() => closeMenu()}
 				className={`menu-item ${skillsClass}`}>
-				Skills
+				{t("Skills")}
 			</Link>
 			<Link
 				to='/contact'
 				onClick={() => closeMenu()}
 				className={`menu-item ${contactClass}`}>
-				Contact
+				{t("Contact")}
 			</Link>
+			<a
+				href='https://blog-aditya.hashnode.dev/'
+				onClick={() => closeMenu()}
+				className={`menu-item ${contactClass}`}>
+				{"Blogs"}
+			</a>
 		</Menu>
 	);
 };
