@@ -1,0 +1,27 @@
+{
+    "React": "esto es reaccionar",
+    "Home": "Hogar",
+    "Contact": "Contacto",
+    "About": "Acerca de",
+    "username": {
+        "label": "nombre de usuario",
+        "placeholder": "segnaposto..."
+    },
+    "password": {
+        "label": "contraseña",
+        "placeholder": "marcador de posición de contraseña..."
+    },
+    "location": "Introduce la ubicación",
+    "Address": "Introduce la dirección",
+    "Projects": "habilidades",
+    "Skill": "Habilidades",
+    "AboutPageContent": {
+        "AboutPageHeading": "Acerca de mí !",
+        "AboutPageSubHeading": "Estudiante | ¡Desarrollador front-end entusiasta al que le encanta profundizar en los CÓMO y POR QUÉ!",
+        "AboutMeParagraph1": "Mi nombre es Aditya Kumar y soy un apasionado desarrollador front-end. Siempre me ha fascinado la intersección de la tecnología y el diseño, y mi interés en crear sitios web visualmente sorprendentes y fáciles de usar.",
+        "AboutMeParagraph2": "Actualmente, estoy cursando una licenciatura en aplicaciones informáticas (BCA) para obtener una comprensión más profunda de los conceptos informáticos, los lenguajes de programación y el desarrollo de software.",
+        "AboutMeParagraph3": "He trabajado en varios proyectos, todos los cuales están implementados actualmente en la web. Estos proyectos me han permitido mostrar mis habilidades en la creación de diseños receptivos, la implementación de tendencias de diseño moderno y la optimización del rendimiento del sitio web.",
+        "AboutFooterList": "echa un vistazo a mi ",
+        "AboutFooterLink": "proyectos!"
+    }
+}
