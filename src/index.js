@@ -6,10 +6,10 @@ import { HashRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<Suspense fallback={<div>Loading....</div>}>
-			<HashRouter>
+		<HashRouter>
+			<Suspense fallback={<div>Loading....</div>}>
 				<App />
-			</HashRouter>
-		</Suspense>
+			</Suspense>
+		</HashRouter>
 	</React.StrictMode>
 );

@@ -3,7 +3,7 @@ import { initReactI18next } from "react-i18next";
 
 import translationsInEng from "../locales/en/translation.json";
 import translationsInGerman from "../locales/de/translation.json";
-import translationsInItalian from "../locales/it/translation.json";
+import translationsInEspanol from "../locales/es/translation.json";
 
 // the translations
 const resources = {
@@ -13,8 +13,8 @@ const resources = {
 	de: {
 		translation: translationsInGerman,
 	},
-	it: {
-		translation: translationsInItalian,
+	es: {
+		translation: translationsInEspanol,
 	},
 };
 
