@@ -35,5 +35,11 @@
         "AboutMeParagraph3": "Ich habe an mehreren Projekten gearbeitet, die derzeit alle im Web eingesetzt werden. Bei diesen Projekten konnte ich meine Fähigkeiten bei der Erstellung responsiver Layouts, der Umsetzung moderner Designtrends und der Optimierung der Website-Leistung unter Beweis stellen.",
         "AboutFooterList": "Sieh dir mein an ",
         "AboutFooterLink": "projekte!"
+    },
+    "SkillPageContent": {
+        "SkillPageHeading": "Meine Fähigkeiten!",
+        "SkillPageDetails": "Da ich mich für neue Technologien interessiere, erforsche ich immer wieder Dinge. Hier ist der Tech-Stack, mit dem ich gearbeitet habe.",
+        "Get in": "In Kontakt ",
+        "touch!": "kommen!"
     }
 }

@@ -4,13 +4,16 @@ import Header from "../Header/Header";
 import FooterLink from "../FooterLink/FooterLink";
 import { skillList } from "../../assets/skillsData";
 import SkillsCard from "./SkillsCard";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+	console.log(useTranslation);
+	const { t } = useTranslation();
 	return (
 		<div className='section-container'>
 			<Header
-				heading=' My Skills!'
-				details="Passionte about new technologies, I keep exploring stuff. Here's the  Tech stack I have worked with."
+				heading={t("SkillPageContent.SkillPageHeading")}
+				details={t("SkillPageContent.SkillPageDetails")}
 			/>
 			<div className='skill-card-container'>
 				{skillList.map(({ skillName, skillUrl }) => (
@@ -22,7 +25,11 @@ const Skills = () => {
 				))}
 			</div>
 
-			<FooterLink phrase=' Get in ' link='touch!' toAdress='/contact' />
+			<FooterLink
+				phrase={t("SkillPageContent.Get in")}
+				link={t("SkillPageContent.touch!")}
+				toAdress='/contact'
+			/>
 		</div>
 	);
 };

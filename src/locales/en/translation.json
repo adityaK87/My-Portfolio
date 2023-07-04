@@ -35,5 +35,11 @@
         "AboutMeParagraph3": "I have worked on several projects, all of which are currently deployed on the web. These projects have allowed me to showcase my skills in creating responsive layouts, implementing modern design trends, and optimizing website performance.",
         "AboutFooterList": "check out my ",
         "AboutFooterLink": "projects!"
+    },
+    "SkillPageContent": {
+        "SkillPageHeading": "My Skills!",
+        "SkillPageDetails": "Passionte about new technologies, I keep exploring stuff. Here's the  Tech stack I have worked with.",
+        "Get in": "Get in ",
+        "touch!": "touch!"
     }
 }

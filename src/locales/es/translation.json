@@ -13,8 +13,8 @@
     },
     "location": "Introduce la ubicación",
     "Address": "Introduce la dirección",
-    "Projects": "habilidades",
-    "Skill": "Habilidades",
+    "Projects": "Proyectos",
+    "Skills": "Habilidades",
     "HomePageContent": {
         "HomePageHeading": "Bienvenido a mi portafolio!",
         "This is": "Esta es",
@@ -35,5 +35,11 @@
         "AboutMeParagraph3": "He trabajado en varios proyectos, todos los cuales están implementados actualmente en la web. Estos proyectos me han permitido mostrar mis habilidades en la creación de diseños receptivos, la implementación de tendencias de diseño moderno y la optimización del rendimiento del sitio web.",
         "AboutFooterList": "echa un vistazo a mi ",
         "AboutFooterLink": "proyectos!"
+    },
+    "SkillPageContent": {
+        "SkillPageHeading": "¡Mis habilidades!",
+        "SkillPageDetails": "Apasionado por las nuevas tecnologías, sigo explorando cosas. Aquí está la pila de tecnología con la que he trabajado.",
+        "Get in": "¡Ponerse en ",
+        "touch!": "contacto!"
     }
 }
