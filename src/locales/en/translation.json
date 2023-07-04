@@ -15,6 +15,13 @@
     "Address": "Enter the address",
     "Projects": "Projects",
     "Skills": "Skills",
+    "HomePageContent": {
+        "HomePageHeading": "Welcome to my portfolio!",
+        "This is": "This is",
+        "a frontend developer!": "a frontend developer!",
+        "RESUME": "RESUME",
+        "CONNECT WITH ME": "CONNECT WITH ME"
+    },
     "AboutPageContent": {
         "AboutPageHeading": "About Me!",
         "AboutPageSubHeading": "Student | Enthusiastic Front End Developer who loves going into the depth of HOWs and WHYs.!",

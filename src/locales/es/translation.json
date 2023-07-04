@@ -15,6 +15,13 @@
     "Address": "Introduce la dirección",
     "Projects": "habilidades",
     "Skill": "Habilidades",
+    "HomePageContent": {
+        "HomePageHeading": "Bienvenido a mi portafolio!",
+        "This is": "Esta es",
+        "a frontend developer!": "un desarrollador frontend",
+        "RESUME": "CURRÍCULUM",
+        "CONNECT WITH ME": "CONECTATE CONMIGO"
+    },
     "AboutPageContent": {
         "AboutPageHeading": "Acerca de mí !",
         "AboutPageSubHeading": "Estudiante | ¡Desarrollador front-end entusiasta al que le encanta profundizar en los CÓMO y POR QUÉ!",
