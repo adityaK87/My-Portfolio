@@ -3,9 +3,10 @@
     "Home": "Home",
     "Contact": "Contact Us",
     "About": "About Us",
-    "username": {
-        "label": "username",
-        "placeholder": "Enter the Username..."
+    "contactForm": {
+        "emailPlaceholder": "Enter you email",
+        "messagePlaceholder": "Type your message...",
+        "sendEmailButton": "Send Email"
     },
     "password": {
         "label": "password",
@@ -41,5 +42,11 @@
         "SkillPageDetails": "Passionte about new technologies, I keep exploring stuff. Here's the  Tech stack I have worked with.",
         "Get in": "Get in ",
         "touch!": "touch!"
+    },
+    "ContactPageContent": {
+        "ContactPageHeading": "Get in touch!",
+        "ContactPageDetails": "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.",
+        "Know more": "Know more ",
+        "about me!": "about me!"
     }
 }

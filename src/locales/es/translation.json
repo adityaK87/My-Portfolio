@@ -3,9 +3,10 @@
     "Home": "Hogar",
     "Contact": "Contacto",
     "About": "Acerca de",
-    "username": {
-        "label": "nombre de usuario",
-        "placeholder": "segnaposto..."
+    "contactForm": {
+        "emailPlaceholder": "Ingrese su correo electrónico",
+        "messagePlaceholder": "Escribe tu mensaje...",
+        "sendEmailButton": "enviar correo electrónico"
     },
     "password": {
         "label": "contraseña",
@@ -41,5 +42,11 @@
         "SkillPageDetails": "Apasionado por las nuevas tecnologías, sigo explorando cosas. Aquí está la pila de tecnología con la que he trabajado.",
         "Get in": "¡Ponerse en ",
         "touch!": "contacto!"
+    },
+    "ContactPageContent": {
+        "ContactPageHeading": "¡Ponerse en contacto!",
+        "ContactPageDetails": "No dude en ponerse en contacto conmigo enviando el siguiente formulario y me pondré en contacto con usted lo antes posible.",
+        "Read more": "Conoce más ",
+        "about me!": "sobre mí !"
     }
 }

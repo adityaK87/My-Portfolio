@@ -7,13 +7,16 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { FiTwitter } from "react-icons/fi";
 import { BiSend } from "react-icons/bi";
 import Peerlist from "../../assets/peerlist.png";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+	console.log(useTranslation);
+	const { t } = useTranslation();
 	return (
 		<div className='section-container'>
 			<Header
-				heading='Get in touch!'
-				details='Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.'
+				heading={t("ContactPageContent.ContactPageHeading")}
+				details={t("ContactPageContent.ContactPageDetails")}
 			/>
 
 			{/* contact form container */}
@@ -24,7 +27,7 @@ const Contact = () => {
 					method='POST'>
 					<input
 						type='email'
-						placeholder='Your Email Id'
+						placeholder={t("contactForm.emailPlaceholder")}
 						name='email'
 						className='input-box email-input'
 						required
@@ -32,12 +35,12 @@ const Contact = () => {
 					{/* Email body */}
 					<textarea
 						type='text'
-						placeholder='Your Message'
+						placeholder={t("contactForm.messagePlaceholder")}
 						name='message'
 						className='input-box body-input'></textarea>
 					{/* submit button */}
 					<button type='submit' className='contact-btn input-box'>
-						Send Email
+						{t("contactForm.sendEmailButton")}
 						<span className='send-btn'>
 							<BiSend />
 						</span>
@@ -91,8 +94,8 @@ const Contact = () => {
 			</div>
 
 			<FooterLink
-				phrase=' Read more '
-				link='about me!'
+				phrase={t("ContactPageContent.Read more")}
+				link={t("ContactPageContent.about me!")}
 				toAdress='/about'
 			/>
 		</div>

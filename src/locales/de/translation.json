@@ -3,9 +3,10 @@
     "Home": "Daheim",
     "Contact": "Kontaktiere uns",
     "About": "Über uns",
-    "username": {
-        "label": "Nutzername",
-        "placeholder": "Platzhalter..."
+    "contactForm": {
+        "emailPlaceholder": "Geben sie ihre E-Mail Adresse ein",
+        "messagePlaceholder": "Geben Sie Ihre Nachricht ein...",
+        "sendEmailButton": "E-Mail senden"
     },
     "password": {
         "label": "Kennwort",
@@ -41,5 +42,11 @@
         "SkillPageDetails": "Da ich mich für neue Technologien interessiere, erforsche ich immer wieder Dinge. Hier ist der Tech-Stack, mit dem ich gearbeitet habe.",
         "Get in": "In Kontakt ",
         "touch!": "kommen!"
+    },
+    "ContactPageContent": {
+        "ContactPageHeading": "In Kontakt kommen!",
+        "ContactPageDetails": "Fühlen Sie sich frei, mich zu kontaktieren, indem Sie das untenstehende Formular absenden. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+        "Read more": "mehr wissen ",
+        "about me!": "über mich!"
     }
 }
