@@ -1,59 +1,60 @@
 {
     "React": "This is React",
-    "Home": "Home",
-    "Contact": "Contact Us",
-    "About": "About Us",
-    "contactForm": {
-        "emailPlaceholder": "Enter you email",
-        "messagePlaceholder": "Type your message...",
-        "sendEmailButton": "Send Email"
+    "HOME": "Home",
+    "CONTACT": "Contact Us",
+    "ABOUT": "About Me",
+    "PROJECT": "Projects",
+    "SKILLS": "Skills",
+    "CONTACT_FORM": {
+        "EMAIL_PLACEHOLDER": "Enter you email",
+        "MESSAGE_PLACEHOLDER": "Type your message...",
+        "SEND_EMAIL": "Send Email"
     },
-    "password": {
-        "label": "password",
-        "placeholder": "password placeholder..."
-    },
-    "location": "Enter the location",
-    "Address": "Enter the address",
-    "Projects": "Projects",
-    "Skills": "Skills",
-    "HomePageContent": {
-        "HomePageHeading": "Welcome to my portfolio!",
-        "This is": "This is",
-        "a frontend developer!": "a frontend developer!",
+    "HOME_PAGE_CONTENT": {
+        "HOME_PAGE_HEADING": "Welcome to my portfolio!",
+        "THIS": "This is",
+        "FRONTEND_DEV": "a frontend developer!",
         "RESUME": "RESUME",
         "CONNECT WITH ME": "CONNECT WITH ME"
     },
-    "HomeFooterContent": {
-        "HomeFooterText": "A dedicated Front End Developer looking for challenging opportunities which could help in enhancing my skills.",
-        "Made with": "Made with",
-        "in India": "in India"
+    "HOME_FOOTER_CONTENT": {
+        "HOME_FOOTER_TEXT": "A dedicated Front End Developer looking for challenging opportunities which could help in enhancing my skills.",
+        "MADE": "Made with",
+        "INDIA": "in India"
     },
-    "AboutPageContent": {
-        "AboutPageHeading": "About Me!",
-        "AboutPageSubHeading": "Student | Enthusiastic Front End Developer who loves going into the depth of HOWs and WHYs.!",
-        "AboutMeParagraph1": "My name is Aditya Kumar, and I am a passionate front-end developer. I have always been fascinated by the intersection of technology and design, and my interest in creating visually stunning and user-friendlywebsites.",
-        "AboutMeParagraph2": " Currently, I am pursuing a Bachelor's degree in Computer Applications (BCA) to gain a deeper understanding of computer science concepts, programming languages, and software development.",
-        "AboutMeParagraph3": "I have worked on several projects, all of which are currently deployed on the web. These projects have allowed me to showcase my skills in creating responsive layouts, implementing modern design trends, and optimizing website performance.",
-        "AboutFooterList": "check out my ",
-        "AboutFooterLink": "projects!"
+    "ABOUT_PAGE_CONTENT": {
+        "ABOUT_PAGE_HEADING": "About Me!",
+        "ABOUT_PAGE_SUB_HEADING": "Student | Enthusiastic Front End Developer who loves going into the depth of HOWs and WHYs.!",
+        "ABOUT_ME_PARA1": "My name is Aditya Kumar, and I am a passionate front-end developer. I have always been fascinated by the intersection of technology and design, and my interest in creating visually stunning and user-friendlywebsites.",
+        "ABOUT_ME_PARA2": " Currently, I am pursuing a Bachelor's degree in Computer Applications (BCA) to gain a deeper understanding of computer science concepts, programming languages, and software development.",
+        "ABOUT_ME_PARA3": "I have worked on several projects, all of which are currently deployed on the web. These projects have allowed me to showcase my skills in creating responsive layouts, implementing modern design trends, and optimizing website performance.",
+        "ABOUT_FOOTER_TEXT": "check out my ",
+        "ABOUT_FOOTER_LINK": "projects!"
     },
-    "SkillPageContent": {
-        "SkillPageHeading": "My Skills!",
-        "SkillPageDetails": "Passionte about new technologies, I keep exploring stuff. Here's the  Tech stack I have worked with.",
-        "Get in": "Get in ",
-        "touch!": "touch!"
+    "SKILL_PAGE_CONTENT": {
+        "SKILL_PAGE_HEADING": "My Skills!",
+        "SKILL_PAGE_DETAIL": "Passionte about new technologies, I keep exploring stuff. Here's the  Tech stack I have worked with.",
+        "GET_IN": "Get in ",
+        "TOUCH": "touch!"
     },
-    "ContactPageContent": {
-        "ContactPageHeading": "Get in touch!",
-        "ContactPageDetails": "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.",
-        "Know more": "Know more ",
-        "about me!": "about me!"
+    "CONTACT_PAGE_CONTENT": {
+        "CONTACT_PAGE_HEADING": "Get in touch!",
+        "CONTACT_PAGE_DETAIL": "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.",
+        "KNOW_MORE": "Know more ",
+        "ABOUT_ME": "about me!"
     },
-    "ProjectPageContent": {
-        "ProjectPageHeading": "My Projects!",
-        "ProjectPageDetails": "Here are a few cool things I've worked on , Do check them out.",
-        "check out my": "check out my ",
-        "skills!": "skills!"
+    "PROJECT_PAGE_CONTENT": {
+        "PROJECT_PAGE_HEADING": "My Projects!",
+        "PROJECT_PAGE_DETAIL": "Here are a few cool things I've worked on , Do check them out.",
+        "CHECK_OUT": "check out my  ",
+        "SKILLS": "skills!"
     },
-    "aditya": "aditya is nikjhfgeklrrg fjdlidkfjejdf egjeklrgjsddflkk"
+    "PROJECT_DESCRIPTION": {
+        "NAME_IT_DESCRIPTION": "Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!",
+        "TYPING_TEST_DESCRIPTION": "Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm). ",
+        "POKEMONSPACE_DESCRIPTION": "Pokemon was a huge part of our childhood. Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokemonspace to check all pokemons :)",
+        "PORTFOLIO_DESCRIPTION": "As a passionate developer/designer, I understand the paramount importance of having a remarkable online presence. That's why We should have a portfolio website to showcase our skills, expertise, and dedication to delivering exceptional results. Thus, this is my online portfolio...",
+        "MARVEL_MOVIES_DESCRIPTION": "Experience the power of the Marvel app—responsive, dynamic, and connected to the API. Discover your beloved characters, comics, and series with ease, all at your fingertips. Just a few taps unlock a world of Marvel, anytime, anywhere.",
+        "SOCIAL_MEDIA_CARD_DESCRIPTION": "Introducing my fully responsive social media card, a one-stop destination for all my social media handles. Explore this dynamic card to discover and connect with me across various social media platforms. Visit now and let's connect!"
+    }
 }
