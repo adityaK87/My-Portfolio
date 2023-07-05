@@ -1,60 +1,58 @@
 {
     "React": "Das ist React",
-    "HOME": "Daheim",
-    "CONTACT": "Kontaktiere uns",
-    "ABOUT": "Über mich",
-    "PROJECT": "Projekte",
-    "SKILLS": "Fähigkeiten",
-    "CONTACT_FORM": {
-        "EMAIL_PLACEHOLDER": "Geben sie ihre E-Mail Adresse ein",
-        "MESSAGE_PLACEHOLDER": "Geben Sie Ihre Nachricht ein...",
-        "SEND_EMAIL": "E-Mail senden"
+    "Home": "Daheim",
+    "Contact": "Kontaktiere uns",
+    "About": "Über uns",
+    "contactForm": {
+        "emailPlaceholder": "Geben sie ihre E-Mail Adresse ein",
+        "messagePlaceholder": "Geben Sie Ihre Nachricht ein...",
+        "sendEmailButton": "E-Mail senden"
     },
-    "HOME_PAGE_CONTENT": {
-        "HOME_PAGE_HEADING": "Willkommen in meinem Portfolio!",
-        "THIS": "Das ist",
-        "FRONTEND_DEV": "ein Frontend-Entwickler",
+    "password": {
+        "label": "Kennwort",
+        "placeholder": "passwort platzhalter..."
+    },
+    "location": "Geben Sie den Standort ein",
+    "Address": "Gib die Adresse ein",
+    "Projects": "Projekte",
+    "Skills": "Fähigkeiten",
+    "HomePageContent": {
+        "HomePageHeading": "Willkommen in meinem Portfolio!",
+        "This is": "Das ist",
+        "a frontend developer!": "ein Frontend-Entwickler",
         "RESUME": "RESÜMEE",
         "CONNECT WITH ME": "VERBINDE SICH MIT MIR"
     },
-    "HOME_FOOTER_CONTENT": {
-        "HOME_FOOTER_TEXT": "Ein engagierter Front-End-Entwickler, der nach herausfordernden Möglichkeiten sucht, die mir dabei helfen könnten, meine Fähigkeiten zu verbessern.",
-        "MADE": "Gemacht mit",
-        "INDIA": "in Indien"
+    "HomeFooterContent": {
+        "HomeFooterText": "Ein engagierter Front-End-Entwickler, der nach herausfordernden Möglichkeiten sucht, die mir dabei helfen könnten, meine Fähigkeiten zu verbessern.",
+        "Made with": "Gemacht mit",
+        "in India": "in Indien"
     },
-    "ABOUT_PAGE_CONTENT": {
-        "ABOUT_PAGE_HEADING": "Über mich!",
-        "ABOUT_PAGE_SUB_HEADING": "Student | Begeisterter Front-End-Entwickler, der es liebt, tief in das WIE und WARUM einzutauchen.!",
-        "ABOUT_ME_PARA1": "Mein Name ist Aditya Kumar und ich bin ein leidenschaftlicher Frontend-Entwickler. Ich war schon immer fasziniert von der Schnittstelle zwischen Technologie und Design und meinem Interesse daran, visuell beeindruckende und benutzerfreundliche Websites zu erstellen.",
-        "ABOUT_ME_PARA2": "Derzeit absolviere ich einen Bachelor-Abschluss in Computeranwendungen (BCA), um ein tieferes Verständnis für Informatikkonzepte, Programmiersprachen und Softwareentwicklung zu erlangen.",
-        "ABOUT_ME_PARA3": "Ich habe an mehreren Projekten gearbeitet, die derzeit alle im Web eingesetzt werden. Bei diesen Projekten konnte ich meine Fähigkeiten bei der Erstellung responsiver Layouts, der Umsetzung moderner Designtrends und der Optimierung der Website-Leistung unter Beweis stellen.",
-        "ABOUT_FOOTER_TEXT": "Sieh dir mein an ",
-        "ABOUT_FOOTER_LINK": "projekte!"
+    "AboutPageContent": {
+        "AboutPageHeading": "Über mich!",
+        "AboutPageSubHeading": "Student | Begeisterter Front-End-Entwickler, der es liebt, tief in das WIE und WARUM einzutauchen.!",
+        "AboutMeParagraph1": "Mein Name ist Aditya Kumar und ich bin ein leidenschaftlicher Frontend-Entwickler. Ich war schon immer fasziniert von der Schnittstelle zwischen Technologie und Design und meinem Interesse daran, visuell beeindruckende und benutzerfreundliche Websites zu erstellen.",
+        "AboutMeParagraph2": "Derzeit absolviere ich einen Bachelor-Abschluss in Computeranwendungen (BCA), um ein tieferes Verständnis für Informatikkonzepte, Programmiersprachen und Softwareentwicklung zu erlangen.",
+        "AboutMeParagraph3": "Ich habe an mehreren Projekten gearbeitet, die derzeit alle im Web eingesetzt werden. Bei diesen Projekten konnte ich meine Fähigkeiten bei der Erstellung responsiver Layouts, der Umsetzung moderner Designtrends und der Optimierung der Website-Leistung unter Beweis stellen.",
+        "AboutFooterList": "Sieh dir mein an ",
+        "AboutFooterLink": "projekte!"
     },
-    "SKILL_PAGE_CONTENT": {
-        "SKILL_PAGE_HEADING": "Meine Fähigkeiten!",
-        "SKILL_PAGE_DETAIL": "Da ich mich für neue Technologien interessiere, erforsche ich immer wieder Dinge. Hier ist der Tech-Stack, mit dem ich gearbeitet habe.",
-        "GET_IN": "In Kontakt ",
-        "TOUCH": "kommen!"
+    "SkillPageContent": {
+        "SkillPageHeading": "Meine Fähigkeiten!",
+        "SkillPageDetails": "Da ich mich für neue Technologien interessiere, erforsche ich immer wieder Dinge. Hier ist der Tech-Stack, mit dem ich gearbeitet habe.",
+        "Get in": "In Kontakt ",
+        "touch!": "kommen!"
     },
-    "CONTACT_PAGE_CONTENT": {
-        "CONTACT_PAGE_HEADING": "In Kontakt kommen!",
-        "CONTACT_PAGE_DETAIL": "Fühlen Sie sich frei, mich zu kontaktieren, indem Sie das untenstehende Formular absenden. Ich werde mich so schnell wie möglich bei Ihnen melden.",
-        "KNOW_MORE": "mehr wissen ",
-        "ABOUT_ME": "über mich!"
+    "ContactPageContent": {
+        "ContactPageHeading": "In Kontakt kommen!",
+        "ContactPageDetails": "Fühlen Sie sich frei, mich zu kontaktieren, indem Sie das untenstehende Formular absenden. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+        "Read more": "mehr wissen ",
+        "about me!": "über mich!"
     },
-    "PROJECT_PAGE_CONTENT": {
-        "PROJECT_PAGE_HEADING": "Meine Projekte!",
-        "PROJECT_PAGE_DETAIL": "Hier sind ein paar coole Dinge, an denen ich gearbeitet habe. Schauen Sie sich sie an.",
-        "CHECK_OUT": "Sieh dir mein an ",
-        "SKILLS": "Fähigkeiten!"
-    },
-    "PROJECT_DESCRIPTION": {
-        "NAME_IT_DESCRIPTION": "Fällt es Ihnen schwer, Ihre Projekte oder Unternehmungen zu benennen? Keine Angst! Schauen Sie sich diese coole Namensvorschlagsanwendung an, die Ihnen dabei helfen wird, den besten Namen für Ihr nächstes Projekt, Unternehmen oder Startup zu finden. Bauen Sie weiter!",
-        "TYPING_TEST_DESCRIPTION": "Eine gute Schreibgeschwindigkeit wird Ihnen als Entwickler immer helfen! Hier präsentiere ich Ihnen die Anwendung zum Testen der Tippgeschwindigkeit, mit der Sie Ihre Tippgeschwindigkeit (in wpm) überprüfen können.",
-        "POKEMONSPACE_DESCRIPTION": "Pokémon war ein großer Teil unserer Kindheit. Über Pokémon zu sprechen weckt so viele Erinnerungen, aber erinnerst du dich an die Details jedes einzelnen Pokémon? Wahrscheinlich nicht! Hier bringe ich Ihnen einen Pokémon-Bereich, in dem Sie alle Pokémon überprüfen können :)",
-        "PORTFOLIO_DESCRIPTION": "Als leidenschaftlicher Entwickler/Designer weiß ich, wie wichtig eine bemerkenswerte Online-Präsenz ist. Aus diesem Grund sollten wir eine Portfolio-Website haben, auf der wir unsere Fähigkeiten, unser Fachwissen und unser Engagement für die Erzielung außergewöhnlicher Ergebnisse präsentieren können. Das ist also mein Online-Portfolio...",
-        "MARVEL_MOVIES_DESCRIPTION": "Erleben Sie die Leistungsfähigkeit der Marvel-App – reaktionsschnell, dynamisch und mit der API verbunden. Entdecken Sie Ihre geliebten Charaktere, Comics und Serien ganz einfach und ganz einfach. Mit nur wenigen Fingertipps erschließen Sie jederzeit und überall eine Welt voller Marvel.",
-        "SOCIAL_MEDIA_CARD_DESCRIPTION": "Ich stelle Ihnen meine vollständig responsive Social-Media-Karte vor, eine zentrale Anlaufstelle für alle meine Social-Media-Kontakte. Entdecken Sie diese dynamische Karte, um mich auf verschiedenen Social-Media-Plattformen zu entdecken und mit mir in Kontakt zu treten. Besuchen Sie uns jetzt und lassen Sie uns miteinander in Kontakt treten!"
+    "ProjectPageContent": {
+        "ProjectPageHeading": "Meine Projekte!",
+        "ProjectPageDetails": "Hier sind ein paar coole Dinge, an denen ich gearbeitet habe. Schauen Sie sich sie an.",
+        "check out my": "Sieh dir mein an ",
+        "skills!": "Fähigkeiten!"
     }
 }

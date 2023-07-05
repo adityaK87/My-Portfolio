@@ -10,13 +10,13 @@ import Peerlist from "../../assets/peerlist.png";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-	console.log(useTranslation);
+	//console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='section-container'>
 			<Header
-				heading={t("CONTACT_PAGE_CONTENT.CONTACT_PAGE_HEADING")}
-				details={t("CONTACT_PAGE_CONTENT.CONTACT_PAGE_DETAIL")}
+				heading={t("ContactPageContent.ContactPageHeading")}
+				details={t("ContactPageContent.ContactPageDetails")}
 			/>
 
 			{/* contact form container */}
@@ -27,7 +27,7 @@ const Contact = () => {
 					method='POST'>
 					<input
 						type='email'
-						placeholder={t("CONTACT_FORM.EMAIL_PLACEHOLDER")}
+						placeholder={t("contactForm.emailPlaceholder")}
 						name='email'
 						className='input-box email-input'
 						required
@@ -35,12 +35,12 @@ const Contact = () => {
 					{/* Email body */}
 					<textarea
 						type='text'
-						placeholder={t("CONTACT_FORM.MESSAGE_PLACEHOLDER")}
+						placeholder={t("contactForm.messagePlaceholder")}
 						name='message'
 						className='input-box body-input'></textarea>
 					{/* submit button */}
 					<button type='submit' className='contact-btn input-box'>
-						{t("CONTACT_FORM.SEND_EMAIL")}
+						{t("contactForm.sendEmailButton")}
 						<span className='send-btn'>
 							<BiSend />
 						</span>
@@ -94,8 +94,8 @@ const Contact = () => {
 			</div>
 
 			<FooterLink
-				phrase={t("CONTACT_PAGE_CONTENT.KNOW_MORE")}
-				link={t("CONTACT_PAGE_CONTENT.ABOUT_ME")}
+				phrase={t("ContactPageContent.Read more")}
+				link={t("ContactPageContent.about me!")}
 				toAdress='/about'
 			/>
 		</div>

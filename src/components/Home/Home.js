@@ -13,21 +13,21 @@ const Home = () => {
 		<div>
 			<div className='home-container'>
 				<div className='header-text'>
-					<h1>{t("HOME_PAGE_CONTENT.HOME_PAGE_HEADING")}</h1>
+					<h1>{t("HomePageContent.HomePageHeading")}</h1>
 					<p>
-						{t("HOME_PAGE_CONTENT.THIS")}{" "}
+						{t("HomePageContent.This is")}{" "}
 						<span className='frontName'>
 							<b>
 								<i>Aditya , </i>
 							</b>
 						</span>
-						{t("HOME_PAGE_CONTENT.FRONTEND_DEV")}
+						{t("HomePageContent.a frontend developer!")}
 					</p>
 				</div>
 				<div className='head-btns'>
 					<div className='resume btn  '>
 						<p className='right btn-text '>
-							{t("HOME_PAGE_CONTENT.RESUME")}
+							{t("HomePageContent.RESUME")}
 						</p>
 						<>
 							<a
@@ -47,7 +47,7 @@ const Home = () => {
 					</div>
 					<Link to='/contact' className='btn '>
 						<p className='btn-text'>
-							{t("HOME_PAGE_CONTENT.CONNECT WITH ME")}{" "}
+							{t("HomePageContent.CONNECT WITH ME")}{" "}
 						</p>
 					</Link>
 				</div>

@@ -5,7 +5,8 @@ export const ProjectData = () => {
 	const projectsData = [
 		{
 			projectName: "Name It!",
-			projectDescription: t("PROJECT_DESCRIPTION.NAME_IT_DESCRIPTION"),
+			projectDescription:
+				"Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!",
 			imageUrl:
 				"https://raw.githubusercontent.com/adityapal87/My-Portfolio/main/src/assets/name-it.PNG",
 			projectUrl: "https://adityak87.github.io/Nameit/",
@@ -13,9 +14,7 @@ export const ProjectData = () => {
 		},
 		{
 			projectName: "Typing-test",
-			projectDescription: t(
-				"PROJECT_DESCRIPTION.TYPING_TEST_DESCRIPTION"
-			),
+			projectDescription: t("aditya"),
 			imageUrl:
 				"https://raw.githubusercontent.com/adityapal87/My-Portfolio/main/src/assets/typing-test.png",
 			projectUrl: "https://adityak87.github.io/Typing-test/",
@@ -23,9 +22,8 @@ export const ProjectData = () => {
 		},
 		{
 			projectName: "PokemonSpace!",
-			projectDescription: t(
-				"PROJECT_DESCRIPTION.POKEMONSPACE_DESCRIPTION"
-			),
+			projectDescription:
+				"Pokemon was a huge part of our childhood. Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokemonspace to check all pokemons :)",
 			imageUrl:
 				"https://raw.githubusercontent.com/adityapal87/My-Portfolio/main/src/assets/pokemonspace.png",
 			projectUrl: "https://pokemonspace.netlify.app/",
@@ -33,7 +31,8 @@ export const ProjectData = () => {
 		},
 		{
 			projectName: "Portfolio Website",
-			projectDescription: t("PROJECT_DESCRIPTION.PORTFOLIO_DESCRIPTION"),
+			projectDescription:
+				"As a developer/designer, We should definitely have our own portfolio website.So this is My Portfolio Website..",
 			imageUrl:
 				"https://raw.githubusercontent.com/adityapal87/My-Portfolio/main/src/assets/portfolio.png",
 			projectUrl: "https://adityapal.netlify.app/",
@@ -41,9 +40,8 @@ export const ProjectData = () => {
 		},
 		{
 			projectName: "Marvel-Movies-App",
-			projectDescription: t(
-				"PROJECT_DESCRIPTION.MARVEL_MOVIES_DESCRIPTION"
-			),
+			projectDescription:
+				"Fully responsive Marvel app that fetches data from the API! With just a few taps, you can access your favorite characters, comics, and series.",
 			imageUrl:
 				"https://raw.githubusercontent.com/adityaK87/Marvel-Movies-App/main/src/assets/marvelbg.jpg",
 			projectUrl: "https://gomarvel.netlify.app/",
@@ -51,9 +49,8 @@ export const ProjectData = () => {
 		},
 		{
 			projectName: "Social-Media-Card",
-			projectDescription: t(
-				"PROJECT_DESCRIPTION.SOCIAL_MEDIA_CARD_DESCRIPTION"
-			),
+			projectDescription:
+				"This fully responsive social media card contains all my social media handle Check it now and Do not forget to follow me there ",
 			imageUrl:
 				"https://raw.githubusercontent.com/adityaK87/My-Portfolio/69d31981a4e3474bbfce5d0a6a1800161ad6681c/src/assets/social-media-app.png",
 			projectUrl: "https://adityaprofiles.vercel.app/",

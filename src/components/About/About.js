@@ -10,21 +10,21 @@ const About = () => {
 	return (
 		<div className='section-container'>
 			<Header
-				heading={t("ABOUT_PAGE_CONTENT.ABOUT_PAGE_HEADING")}
-				details={t("ABOUT_PAGE_CONTENT.ABOUT_PAGE_SUB_HEADING")}
+				heading={t("AboutPageContent.AboutPageHeading")}
+				details={t("AboutPageContent.AboutPageSubHeading")}
 			/>
 
 			<div className='about-main'>
 				<div className='about-main-left'>
 					{/* sub-section 1 */}
 					<p className='about-sub-head'>
-						{t("ABOUT_PAGE_CONTENT.ABOUT_ME_PARA1")}
+						{t("AboutPageContent.AboutMeParagraph1")}
 					</p>
 					<p className='about-sub-head'>
-						{t("ABOUT_PAGE_CONTENT.ABOUT_ME_PARA2")}
+						{t("AboutPageContent.AboutMeParagraph2")}
 					</p>
 					<p className='about-sub-head'>
-						{t("ABOUT_PAGE_CONTENT.ABOUT_ME_PARA3")}
+						{t("AboutPageContent.AboutMeParagraph3")}
 					</p>
 				</div>
 
@@ -38,8 +38,8 @@ const About = () => {
 			</div>
 
 			<FooterLink
-				phrase={t("ABOUT_PAGE_CONTENT.ABOUT_FOOTER_TEXT")}
-				link={t("ABOUT_PAGE_CONTENT.ABOUT_FOOTER_LINK")}
+				phrase={t("AboutPageContent.AboutFooterList")}
+				link={t("AboutPageContent.AboutFooterLink")}
 				toAdress='/projects'
 			/>
 		</div>

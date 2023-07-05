@@ -7,14 +7,13 @@ import SkillsCard from "./SkillsCard";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
-	console.log(useTranslation);
-	console.log(skillList);
+	//console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='section-container'>
 			<Header
-				heading={t("SKILL_PAGE_CONTENT.SKILL_PAGE_HEADING")}
-				details={t("SKILL_PAGE_CONTENT.SKILL_PAGE_DETAIL")}
+				heading={t("SkillPageContent.SkillPageHeading")}
+				details={t("SkillPageContent.SkillPageDetails")}
 			/>
 			<div className='skill-card-container'>
 				{skillList.map(({ skillName, skillUrl }) => (
@@ -27,8 +26,8 @@ const Skills = () => {
 			</div>
 
 			<FooterLink
-				phrase={t("SKILL_PAGE_CONTENT.GET_IN")}
-				link={t("SKILL_PAGE_CONTENT.TOUCH")}
+				phrase={t("SkillPageContent.Get in")}
+				link={t("SkillPageContent.touch!")}
 				toAdress='/contact'
 			/>
 		</div>
