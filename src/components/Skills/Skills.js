@@ -7,7 +7,7 @@ import SkillsCard from "./SkillsCard";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
-	console.log(useTranslation);
+	//console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='section-container'>

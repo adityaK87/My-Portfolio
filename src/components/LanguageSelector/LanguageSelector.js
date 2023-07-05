@@ -14,7 +14,7 @@ const LanguageSelector = () => {
 
 	return (
 		<select
-			className='dropdown '
+			className='dropdown'
 			defaultValue={selectedLanguage}
 			onChange={chooseLanguage}>
 			<option className='dropdown-content' value='de'>

@@ -25,8 +25,10 @@ const App = () => {
 
 	return (
 		<>
-			<DarkMode />
-			<LanguageSelector />
+			<div className='right-styling'>
+				<DarkMode />
+				<LanguageSelector />
+			</div>
 			<>
 				<SideBar />
 				<Routes>

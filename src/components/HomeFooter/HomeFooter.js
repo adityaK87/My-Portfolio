@@ -7,7 +7,7 @@ import Peerlist from "../../assets/peerlist.png";
 import { useTranslation } from "react-i18next";
 
 const HomeFooter = () => {
-	console.log(useTranslation);
+	//console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='home-footer'>

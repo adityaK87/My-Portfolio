@@ -10,7 +10,7 @@ import Peerlist from "../../assets/peerlist.png";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-	console.log(useTranslation);
+	//console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='section-container'>

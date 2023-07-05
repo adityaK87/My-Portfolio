@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@400;500&display=swap");
 
 .dropdown  {
-    position: absolute;
+    position: relative;
     top: 19px;
-    right: 92px;
+    /* right: 92px; */
     background-color: #253849;
     min-width: 130px;
     width: max-content;
@@ -15,6 +15,7 @@
     border: none;
     cursor: pointer;
     justify-content: space-evenly;
+    margin-right: 40px;
   }
 
 

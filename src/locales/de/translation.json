@@ -48,5 +48,11 @@
         "ContactPageDetails": "Fühlen Sie sich frei, mich zu kontaktieren, indem Sie das untenstehende Formular absenden. Ich werde mich so schnell wie möglich bei Ihnen melden.",
         "Read more": "mehr wissen ",
         "about me!": "über mich!"
+    },
+    "ProjectPageContent": {
+        "ProjectPageHeading": "Meine Projekte!",
+        "ProjectPageDetails": "Hier sind ein paar coole Dinge, an denen ich gearbeitet habe. Schauen Sie sich sie an.",
+        "check out my": "Sieh dir mein an ",
+        "skills!": "Fähigkeiten!"
     }
 }

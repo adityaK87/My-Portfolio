@@ -17,7 +17,7 @@
     "Projects": "Proyectos",
     "Skills": "Habilidades",
     "HomePageContent": {
-        "HomePageHeading": "Bienvenido a mi portafolio!",
+        "HomePageHeading": "¡Bienvenido a mi portafolio!",
         "This is": "Esta es",
         "a frontend developer!": "un desarrollador frontend",
         "RESUME": "CURRÍCULUM",
@@ -29,7 +29,7 @@
         "in India": "En India"
     },
     "AboutPageContent": {
-        "AboutPageHeading": "Acerca de mí !",
+        "AboutPageHeading": "¡Acerca de mí !",
         "AboutPageSubHeading": "Estudiante | ¡Desarrollador front-end entusiasta al que le encanta profundizar en los CÓMO y POR QUÉ!",
         "AboutMeParagraph1": "Mi nombre es Aditya Kumar y soy un apasionado desarrollador front-end. Siempre me ha fascinado la intersección de la tecnología y el diseño, y mi interés en crear sitios web visualmente sorprendentes y fáciles de usar.",
         "AboutMeParagraph2": "Actualmente, estoy cursando una licenciatura en aplicaciones informáticas (BCA) para obtener una comprensión más profunda de los conceptos informáticos, los lenguajes de programación y el desarrollo de software.",
@@ -48,5 +48,11 @@
         "ContactPageDetails": "No dude en ponerse en contacto conmigo enviando el siguiente formulario y me pondré en contacto con usted lo antes posible.",
         "Read more": "Conoce más ",
         "about me!": "sobre mí !"
+    },
+    "ProjectPageContent": {
+        "ProjectPageHeading": "¡Mis proyectos!",
+        "ProjectPageDetails": "Aquí hay algunas cosas interesantes en las que he trabajado, échales un vistazo.",
+        "check out my": "mira mis  ",
+        "skills!": "habilidades!"
     }
 }

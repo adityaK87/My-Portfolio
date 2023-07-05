@@ -2,15 +2,18 @@ import React from "react";
 import "./Project.css";
 import Header from "../Header/Header";
 import FooterLink from "../FooterLink/FooterLink";
-import { projectsData } from "../../assets/projectsData";
+import { ProjectData } from "../../assets/projectsData";
 import ProjectsCard from "./ProjectsCard";
+import { useTranslation } from "react-i18next";
 
 const Project = () => {
+	const { t } = useTranslation();
+	const projectsData = ProjectData();
 	return (
 		<div className='section-container'>
 			<Header
-				heading='My Projects!'
-				details="Here are a few cool things I've worked on , Do check them out. "
+				heading={t("ProjectPageContent.ProjectPageHeading")}
+				details={t("ProjectPageContent.ProjectPageDetails")}
 			/>
 
 			<div className='project-card-container'>
@@ -37,8 +40,8 @@ const Project = () => {
 			</div>
 
 			<FooterLink
-				phrase=' check out '
-				link=' my skills!'
+				phrase={t("ProjectPageContent.check out my")}
+				link={t("ProjectPageContent.skills!")}
 				toAdress='/skills'
 			/>
 		</div>
