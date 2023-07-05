@@ -7,7 +7,7 @@ import Peerlist from "../../assets/peerlist.png";
 import { useTranslation } from "react-i18next";
 
 const HomeFooter = () => {
-	//console.log(useTranslation);
+	console.log(useTranslation);
 	const { t } = useTranslation();
 	return (
 		<div className='home-footer'>
@@ -15,7 +15,7 @@ const HomeFooter = () => {
 				<div className='left-footer'>
 					<h1 className='my-name'>ADITYA KUMAR</h1>
 					<p className='my-details'>
-						{t("HomeFooterContent.HomeFooterText")}
+						{t("HOME_FOOTER_CONTENT.HOME_FOOTER_TEXT")}
 					</p>
 				</div>
 
@@ -74,9 +74,9 @@ const HomeFooter = () => {
 
 			<div className='large-4 columns'>
 				<p className='madewithlove'>
-					{t("HomeFooterContent.Made with")}{" "}
+					{t("HOME_FOOTER_CONTENT.MADE")}{" "}
 					<i className='fa fa-heart'></i>{" "}
-					{t("HomeFooterContent.in India")}
+					{t("HOME_FOOTER_CONTENT.INDIA")}
 				</p>
 			</div>
 			<p className='copyright'>

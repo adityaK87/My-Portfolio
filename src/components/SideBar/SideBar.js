@@ -37,31 +37,31 @@ const SideBar = () => {
 				to='/'
 				onClick={() => closeMenu()}
 				className={`menu-item ${homeClass}`}>
-				{t("Home")}
+				{t("HOME")}
 			</Link>
 			<Link
 				to='/about'
 				onClick={() => closeMenu()}
 				className={`menu-item ${aboutClass}`}>
-				{t("About")}
+				{t("ABOUT")}
 			</Link>
 			<Link
 				to='/projects'
 				onClick={() => closeMenu()}
 				className={`menu-item ${projectClass}`}>
-				{t("Projects")}
+				{t("PROJECT")}
 			</Link>
 			<Link
 				to='/skills'
 				onClick={() => closeMenu()}
 				className={`menu-item ${skillsClass}`}>
-				{t("Skills")}
+				{t("SKILLS")}
 			</Link>
 			<Link
 				to='/contact'
 				onClick={() => closeMenu()}
 				className={`menu-item ${contactClass}`}>
-				{t("Contact")}
+				{t("CONTACT")}
 			</Link>
 			<a
 				href='https://blog-aditya.hashnode.dev/'
