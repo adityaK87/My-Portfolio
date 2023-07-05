@@ -12,8 +12,8 @@ const Project = () => {
 	return (
 		<div className='section-container'>
 			<Header
-				heading={t("ProjectPageContent.ProjectPageHeading")}
-				details={t("ProjectPageContent.ProjectPageDetails")}
+				heading={t("PROJECT_PAGE_CONTENT.PROJECT_PAGE_HEADING")}
+				details={t("PROJECT_PAGE_CONTENT.PROJECT_PAGE_DETAIL")}
 			/>
 
 			<div className='project-card-container'>
@@ -40,8 +40,8 @@ const Project = () => {
 			</div>
 
 			<FooterLink
-				phrase={t("ProjectPageContent.check out my")}
-				link={t("ProjectPageContent.skills!")}
+				phrase={t("PROJECT_PAGE_CONTENT.CHECK_OUT")}
+				link={t("PROJECT_PAGE_CONTENT.SKILLS")}
 				toAdress='/skills'
 			/>
 		</div>

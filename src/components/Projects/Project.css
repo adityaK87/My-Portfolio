@@ -2,7 +2,7 @@
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 40px;
+   padding: 40px 0px;
    justify-content: center;
    align-items: stretch;
 }
@@ -19,7 +19,7 @@
    align-items:center;
    justify-content: flex-start;
    margin: 20px;
-   width: 20rem;
+   width: 26rem;
    height: auto;
    text-align: left;
    transition: var(--transition);
