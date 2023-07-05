@@ -6,6 +6,9 @@
     height: 20px;
     right: 1rem;
     top: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 
