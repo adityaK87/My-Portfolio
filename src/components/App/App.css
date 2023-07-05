@@ -8,6 +8,7 @@
    --sidebar-link-color:#576ee0;
    --border-radius : 0.5rem;
    --transition :0.3s;
+   --input-box-font-color: #000;
 }
 
 [data-theme="light"] {
