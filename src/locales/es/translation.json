@@ -1,0 +1,58 @@
+{
+    "React": "esto es reaccionar",
+    "Home": "Hogar",
+    "Contact": "Contacto",
+    "About": "Acerca de",
+    "contactForm": {
+        "emailPlaceholder": "Ingrese su correo electrónico",
+        "messagePlaceholder": "Escribe tu mensaje...",
+        "sendEmailButton": "enviar correo electrónico"
+    },
+    "password": {
+        "label": "contraseña",
+        "placeholder": "marcador de posición de contraseña..."
+    },
+    "location": "Introduce la ubicación",
+    "Address": "Introduce la dirección",
+    "Projects": "Proyectos",
+    "Skills": "Habilidades",
+    "HomePageContent": {
+        "HomePageHeading": "¡Bienvenido a mi portafolio!",
+        "This is": "Esta es",
+        "a frontend developer!": "un desarrollador frontend",
+        "RESUME": "CURRÍCULUM",
+        "CONNECT WITH ME": "CONECTATE CONMIGO"
+    },
+    "HomeFooterContent": {
+        "HomeFooterText": "Un desarrollador front-end dedicado que busca oportunidades desafiantes que podrían ayudarme a mejorar mis habilidades.",
+        "Made with": "Hecho con",
+        "in India": "En India"
+    },
+    "AboutPageContent": {
+        "AboutPageHeading": "¡Acerca de mí !",
+        "AboutPageSubHeading": "Estudiante | ¡Desarrollador front-end entusiasta al que le encanta profundizar en los CÓMO y POR QUÉ!",
+        "AboutMeParagraph1": "Mi nombre es Aditya Kumar y soy un apasionado desarrollador front-end. Siempre me ha fascinado la intersección de la tecnología y el diseño, y mi interés en crear sitios web visualmente sorprendentes y fáciles de usar.",
+        "AboutMeParagraph2": "Actualmente, estoy cursando una licenciatura en aplicaciones informáticas (BCA) para obtener una comprensión más profunda de los conceptos informáticos, los lenguajes de programación y el desarrollo de software.",
+        "AboutMeParagraph3": "He trabajado en varios proyectos, todos los cuales están implementados actualmente en la web. Estos proyectos me han permitido mostrar mis habilidades en la creación de diseños receptivos, la implementación de tendencias de diseño moderno y la optimización del rendimiento del sitio web.",
+        "AboutFooterList": "echa un vistazo a mi ",
+        "AboutFooterLink": "proyectos!"
+    },
+    "SkillPageContent": {
+        "SkillPageHeading": "¡Mis habilidades!",
+        "SkillPageDetails": "Apasionado por las nuevas tecnologías, sigo explorando cosas. Aquí está la pila de tecnología con la que he trabajado.",
+        "Get in": "¡Ponerse en ",
+        "touch!": "contacto!"
+    },
+    "ContactPageContent": {
+        "ContactPageHeading": "¡Ponerse en contacto!",
+        "ContactPageDetails": "No dude en ponerse en contacto conmigo enviando el siguiente formulario y me pondré en contacto con usted lo antes posible.",
+        "Read more": "Conoce más ",
+        "about me!": "sobre mí !"
+    },
+    "ProjectPageContent": {
+        "ProjectPageHeading": "¡Mis proyectos!",
+        "ProjectPageDetails": "Aquí hay algunas cosas interesantes en las que he trabajado, échales un vistazo.",
+        "check out my": "mira mis  ",
+        "skills!": "habilidades!"
+    }
+}

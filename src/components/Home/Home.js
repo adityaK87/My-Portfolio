@@ -5,30 +5,34 @@ import homeAnime from "../../assets/home_anime.gif";
 import Resume from "../../assets/pdf/Aditya-Kumar-Resume.pdf";
 import { CgSoftwareDownload } from "react-icons/cg";
 import { BsEye } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+	const { t } = useTranslation();
 	return (
 		<div>
 			<div className='home-container'>
 				<div className='header-text'>
-					<h1>Welcome to my portfolio!</h1>
+					<h1>{t("HomePageContent.HomePageHeading")}</h1>
 					<p>
-						This is{" "}
+						{t("HomePageContent.This is")}{" "}
 						<span className='frontName'>
 							<b>
 								<i>Aditya , </i>
 							</b>
 						</span>
-						a frontend developer!
+						{t("HomePageContent.a frontend developer!")}
 					</p>
 				</div>
 				<div className='head-btns'>
 					<div className='resume btn  '>
-						<p className='right btn-text '>RESUME</p>
+						<p className='right btn-text '>
+							{t("HomePageContent.RESUME")}
+						</p>
 						<>
 							<a
 								href={Resume}
-								download='Aditya-Resume.pdf'
+								download='Aditya-Kumar-Resume.pdf'
 								className='resume-links download-btn'>
 								<CgSoftwareDownload />
 							</a>
@@ -39,17 +43,12 @@ const Home = () => {
 								className='resume-links download-btn'>
 								<BsEye />
 							</a>
-							{/* <a
-								target='_blank'
-								href='../../assets/pdf/Aditya-Kumar-Resume.pdf'
-								rel='noreferrer'
-								className='resume-links download-btn'>
-								<BsEye />
-							</a> */}
 						</>
 					</div>
 					<Link to='/contact' className='btn '>
-						<p className='btn-text'>CONNECT WITH ME </p>
+						<p className='btn-text'>
+							{t("HomePageContent.CONNECT WITH ME")}{" "}
+						</p>
 					</Link>
 				</div>
 				<div className='splash-img'>

@@ -4,16 +4,18 @@ import { VscGithubInverted } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiTwitter } from "react-icons/fi";
 import Peerlist from "../../assets/peerlist.png";
+import { useTranslation } from "react-i18next";
 
 const HomeFooter = () => {
+	//console.log(useTranslation);
+	const { t } = useTranslation();
 	return (
 		<div className='home-footer'>
 			<div className='container'>
 				<div className='left-footer'>
 					<h1 className='my-name'>ADITYA KUMAR</h1>
 					<p className='my-details'>
-						A dedicated Front End Developer looking for challenging
-						opportunities which could help in enhancing my skills.
+						{t("HomeFooterContent.HomeFooterText")}
 					</p>
 				</div>
 
@@ -57,7 +59,11 @@ const HomeFooter = () => {
 									target='_blank'
 									rel='noreferrer'>
 									<span className='peerlist social_btns'>
-										<img src={Peerlist} alt='PeerList' />
+										<img
+											src={Peerlist}
+											alt='PeerList'
+											width='20'
+										/>
 									</span>
 								</a>
 							</li>
@@ -68,7 +74,9 @@ const HomeFooter = () => {
 
 			<div className='large-4 columns'>
 				<p className='madewithlove'>
-					Made with <i className='fa fa-heart'></i> in India
+					{t("HomeFooterContent.Made with")}{" "}
+					<i className='fa fa-heart'></i>{" "}
+					{t("HomeFooterContent.in India")}
 				</p>
 			</div>
 			<p className='copyright'>

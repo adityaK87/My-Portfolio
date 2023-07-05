@@ -11,11 +11,11 @@ import GoHome from "../GoHome/GoHome";
 import HomeFooter from "../HomeFooter/HomeFooter";
 import { useLocation } from "react-router-dom";
 import DarkMode from "../DarkMode/DarkMode";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 const App = () => {
 	const [isHome, setIsHome] = useState(true);
 	const { pathname } = useLocation();
-
 	useEffect(() => {
 		if (pathname === "/") {
 			// HomeFooter will be shown only on home page{app component}
@@ -25,7 +25,10 @@ const App = () => {
 
 	return (
 		<>
-			<DarkMode />
+			<div className='right-styling'>
+				<DarkMode />
+				<LanguageSelector />
+			</div>
 			<>
 				<SideBar />
 				<Routes>

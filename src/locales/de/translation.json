@@ -3,14 +3,56 @@
     "Home": "Daheim",
     "Contact": "Kontaktiere uns",
     "About": "Über uns",
-    "username": {
-        "label": "Nutzername",
-        "placeholder": "Platzhalter..."
+    "contactForm": {
+        "emailPlaceholder": "Geben sie ihre E-Mail Adresse ein",
+        "messagePlaceholder": "Geben Sie Ihre Nachricht ein...",
+        "sendEmailButton": "E-Mail senden"
     },
     "password": {
         "label": "Kennwort",
         "placeholder": "passwort platzhalter..."
     },
     "location": "Geben Sie den Standort ein",
-    "Address": "Gib die Adresse ein"
+    "Address": "Gib die Adresse ein",
+    "Projects": "Projekte",
+    "Skills": "Fähigkeiten",
+    "HomePageContent": {
+        "HomePageHeading": "Willkommen in meinem Portfolio!",
+        "This is": "Das ist",
+        "a frontend developer!": "ein Frontend-Entwickler",
+        "RESUME": "RESÜMEE",
+        "CONNECT WITH ME": "VERBINDE SICH MIT MIR"
+    },
+    "HomeFooterContent": {
+        "HomeFooterText": "Ein engagierter Front-End-Entwickler, der nach herausfordernden Möglichkeiten sucht, die mir dabei helfen könnten, meine Fähigkeiten zu verbessern.",
+        "Made with": "Gemacht mit",
+        "in India": "in Indien"
+    },
+    "AboutPageContent": {
+        "AboutPageHeading": "Über mich!",
+        "AboutPageSubHeading": "Student | Begeisterter Front-End-Entwickler, der es liebt, tief in das WIE und WARUM einzutauchen.!",
+        "AboutMeParagraph1": "Mein Name ist Aditya Kumar und ich bin ein leidenschaftlicher Frontend-Entwickler. Ich war schon immer fasziniert von der Schnittstelle zwischen Technologie und Design und meinem Interesse daran, visuell beeindruckende und benutzerfreundliche Websites zu erstellen.",
+        "AboutMeParagraph2": "Derzeit absolviere ich einen Bachelor-Abschluss in Computeranwendungen (BCA), um ein tieferes Verständnis für Informatikkonzepte, Programmiersprachen und Softwareentwicklung zu erlangen.",
+        "AboutMeParagraph3": "Ich habe an mehreren Projekten gearbeitet, die derzeit alle im Web eingesetzt werden. Bei diesen Projekten konnte ich meine Fähigkeiten bei der Erstellung responsiver Layouts, der Umsetzung moderner Designtrends und der Optimierung der Website-Leistung unter Beweis stellen.",
+        "AboutFooterList": "Sieh dir mein an ",
+        "AboutFooterLink": "projekte!"
+    },
+    "SkillPageContent": {
+        "SkillPageHeading": "Meine Fähigkeiten!",
+        "SkillPageDetails": "Da ich mich für neue Technologien interessiere, erforsche ich immer wieder Dinge. Hier ist der Tech-Stack, mit dem ich gearbeitet habe.",
+        "Get in": "In Kontakt ",
+        "touch!": "kommen!"
+    },
+    "ContactPageContent": {
+        "ContactPageHeading": "In Kontakt kommen!",
+        "ContactPageDetails": "Fühlen Sie sich frei, mich zu kontaktieren, indem Sie das untenstehende Formular absenden. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+        "Read more": "mehr wissen ",
+        "about me!": "über mich!"
+    },
+    "ProjectPageContent": {
+        "ProjectPageHeading": "Meine Projekte!",
+        "ProjectPageDetails": "Hier sind ein paar coole Dinge, an denen ich gearbeitet habe. Schauen Sie sich sie an.",
+        "check out my": "Sieh dir mein an ",
+        "skills!": "Fähigkeiten!"
+    }
 }

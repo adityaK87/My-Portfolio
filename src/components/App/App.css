@@ -41,6 +41,12 @@ body {
    background-color: var(--background-color);
    transition: var(--transition);
 }
+
+.right-styling{
+   display: flex;
+   float: right;
+}
+
 /* width */
 ::-webkit-scrollbar {
    width: 7px;
