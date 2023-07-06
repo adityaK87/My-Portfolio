@@ -25,10 +25,12 @@ const App = () => {
 
 	return (
 		<>
-			<DarkMode />
-			<LanguageSelector />
-			<>
+			<nav className='navbar'>
+				<DarkMode />
+				<LanguageSelector />
 				<SideBar />
+			</nav>
+			<>
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />

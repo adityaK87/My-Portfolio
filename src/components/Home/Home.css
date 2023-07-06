@@ -7,7 +7,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 60px 10% 0px 10%;
+    padding: 61px 10px 0% 0px;
 	min-height: 78vh;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -135,14 +135,19 @@
 }
 
 /* for small height sizes screen */
-@media only screen and (max-width: 414px) {
-	.home-container {
-		padding-top: 55px;
+@media  only screen and (max-width:1000px) {
+	.home-container{
+		padding: 9% 0px 5% 0px;
 	}
-}
+	
+ }
+
 @media only screen and (max-width: 800px) {
 	.home-anime {
 		width: 500px;
+	}
+	.home-container {
+		padding-top: 12%;
 	}
 }
 
@@ -150,11 +155,17 @@
 	.home-anime {
 		width: 400px;
 	}
+	.home-container {
+		padding-top: 15%;
+	}
 }
 
 @media only screen and (max-width: 645px) {
 	.home-anime {
 		width: 350px;
+	}	
+	.home-container {
+		padding-top: 19%;
 	}
 	.btn {
 		margin: 12px;
@@ -180,3 +191,8 @@
 		line-height: 25px;
 	}
 }
+@media only screen and (max-width: 414px) {
+	.home-container {
+			padding-top: 25%;
+		}
+	}
