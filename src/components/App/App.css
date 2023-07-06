@@ -17,6 +17,7 @@
    --link-color: #576ee0;
    --paragraph-font-color:#6a6d7c;
    --project-card-background-color:#fff;
+   --navbar-background-color:#fff;
    
 }
 
@@ -28,6 +29,8 @@
    /* --background-color: #16213E; */
    --background-color: #161927;
    --project-card-background-color:#1d2135;
+   --navbar-background-color:#0e101b;
+   
 }
 
 body {
@@ -41,11 +44,7 @@ body {
    background-color: var(--background-color);
    transition: var(--transition);
 }
-.right-styling{
-   position: absolute;
-   display: flex;
-   float: right;
-}
+
 /* width */
 ::-webkit-scrollbar {
    width: 7px;
@@ -78,7 +77,7 @@ select:focus {
    box-sizing: border-box;
    min-height: 100vh;
    /* position: relative; */
-   padding: 50px 0px;
+   padding: 5% 0px 0px 0px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -87,6 +86,22 @@ select:focus {
 }
 
 /* for small width screen */
+@media  only screen and (max-width:1000px) {
+   .section-container{
+   padding: 10% 0px 20px 0px;
+   }
+   .navbar{
+      position: fixed;
+      background:var(--navbar-background-color);
+      width: 100%;
+      height: 5rem;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 10px 100px rgba(0,0,0,.1);
+   }
+   
+}
 @media only screen and (max-width: 640px) {
    .section-container {
       padding: 100px 0px;
