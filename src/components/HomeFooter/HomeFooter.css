@@ -108,6 +108,9 @@ b {
 		flex-direction: column;
 		margin: 0 30px;
 	}
+	.right-footer{
+		padding: 12px 0px;
+	}
 	.my-name {
 		text-align: center;
 	}

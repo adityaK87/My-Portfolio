@@ -16,6 +16,7 @@ import LanguageSelector from "../LanguageSelector/LanguageSelector";
 const App = () => {
 	const [isHome, setIsHome] = useState(true);
 	const { pathname } = useLocation();
+
 	useEffect(() => {
 		if (pathname === "/") {
 			// HomeFooter will be shown only on home page{app component}
