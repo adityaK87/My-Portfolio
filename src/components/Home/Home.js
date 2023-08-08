@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import homeAnime from "../../assets/home_anime.gif";
-import Resume from "../../assets/pdf/Aditya-Kumar-Resume.pdf";
+import Resume from "../../assets/pdf/Aditya_Kumar_Resume.pdf";
 import { CgSoftwareDownload } from "react-icons/cg";
 import { BsEye } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
@@ -32,7 +32,7 @@ const Home = () => {
 						<>
 							<a
 								href={Resume}
-								download='Aditya-Kumar-Resume.pdf'
+								download='Aditya_Kumar_Resume.pdf'
 								className='resume-links download-btn'>
 								<CgSoftwareDownload />
 							</a>
