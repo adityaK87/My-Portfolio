@@ -39,7 +39,7 @@ const Home = () => {
 							<a
 								target='_blank'
 								rel='noreferrer'
-								href='https://drive.google.com/file/d/1L0AgtCw7zscndDkC0-94p8ZGuXAHpQY2/view'
+								href='https://drive.google.com/file/d/1vG9bbEJthefRA5Sd--DYBfVj9xlifUwz/view'
 								className='resume-links download-btn'>
 								<BsEye />
 							</a>
