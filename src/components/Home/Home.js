@@ -8,7 +8,7 @@ import { BsEye } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation(); //destructuring t from the useTranslation
 	return (
 		<div>
 			<div className='home-container'>

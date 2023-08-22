@@ -59,6 +59,14 @@ export const ProjectData = () => {
 			projectUrl: "https://adityaprofiles.vercel.app/",
 			codeUrl: "https://github.com/adityaK87/social-media-card",
 		},
+		{
+			projectName: "Travel Saathi",
+			projectDescription: t("PROJECT_DESCRIPTION.TRAVEL_APP_DESCRIPTION"),
+			imageUrl:
+				"https://github.com/adityaK87/Travel-Saathi/blob/main/src/img/screenShot.png?raw=true",
+			projectUrl: "https://travel-saathi.netlify.app/",
+			codeUrl: "https://github.com/adityaK87/Travel-Saathi",
+		},
 	];
 	return projectsData;
 };

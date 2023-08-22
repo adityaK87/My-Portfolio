@@ -55,6 +55,7 @@
         "POKEMONSPACE_DESCRIPTION": "Pokemon was a huge part of our childhood. Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokemonspace to check all pokemons :)",
         "PORTFOLIO_DESCRIPTION": "As a passionate developer/designer, I understand the paramount importance of having a remarkable online presence. That's why We should have a portfolio website to showcase our skills, expertise, and dedication to delivering exceptional results. Thus, this is my online portfolio...",
         "MARVEL_MOVIES_DESCRIPTION": "Experience the power of the Marvel app—responsive, dynamic, and connected to the API. Discover your beloved characters, comics, and series with ease, all at your fingertips. Just a few taps unlock a world of Marvel, anytime, anywhere.",
-        "SOCIAL_MEDIA_CARD_DESCRIPTION": "Introducing my fully responsive social media card, a one-stop destination for all my social media handles. Explore this dynamic card to discover and connect with me across various social media platforms. Visit now and let's connect!"
+        "SOCIAL_MEDIA_CARD_DESCRIPTION": "Introducing my fully responsive social media card, a one-stop destination for all my social media handles. Explore this dynamic card to discover and connect with me across various social media platforms. Visit now and let's connect!",
+        "TRAVEL_APP_DESCRIPTION": "Website that shows nearby restaurants, hotels, and attractions in any location. Fetching API data based on user interaction and data filtering are just some of the features that have been implemented. It has a map embedded in it giving the entire list of restaurants, hotels, etc."
     }
 }
