@@ -50,6 +50,7 @@
         "SKILLS": "habilidades!"
     },
     "PROJECT_DESCRIPTION": {
+        "COLOR_PICKER_DESCRIPTION": "Con la ayuda de esta útil extensión de Chrome, puedes acceder a todo el espectro de colores. Independientemente de su profesión, puede capturar colores de forma rápida y precisa desde cualquier sitio web con la ayuda de nuestra extensión Color Picker.",
         "NAME_IT_DESCRIPTION": "¿Te cuesta poner nombre a tus proyectos o emprendimientos? ¡No temáis! Echa un vistazo a esta genial aplicación de sugerencias de nombres que te ayudará a encontrar el mejor nombre para tu próximo proyecto, empresa o startup. ¡Sigue construyendo!",
         "TYPING_TEST_DESCRIPTION": "¡Tener una buena velocidad de escritura siempre te ayudará como desarrollador! Aquí, te presento la aplicación de prueba de velocidad de escritura, donde puedes comprobar tu velocidad de escritura (en palabras por minuto).",
         "POKEMONSPACE_DESCRIPTION": "Pokémon fue una gran parte de nuestra infancia. Hablar de pokemon me trae muchos recuerdos, pero ¿recuerdas los detalles de cada pokemon? ¡Probablemente no! Así que aquí les traigo un pokemonspace para revisar todos los pokemons :)",
