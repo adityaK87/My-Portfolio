@@ -7,7 +7,6 @@
 	margin: 50px 10%;
 }
 
-
 .skill {
 	display: flex;
 	flex-direction: column;
@@ -32,8 +31,6 @@
 	color: var(--font-colorn);
 	padding: 18px 0px;
 }
-
-
 
 @media only screen and (max-width: 478px) {
 	.skill-card-container {
