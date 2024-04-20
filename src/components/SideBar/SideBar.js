@@ -21,7 +21,7 @@ const SideBar = () => {
 	const skillsClass = location.pathname === "/skills" ? "active-item" : "";
 	const contactClass = location.pathname === "/contact" ? "active-item" : "";
 
-	const handleSateChange = (state) => {
+	const handleStateChange = (state) => {
 		setMenuOpen(state.isOpen);
 	};
 
@@ -32,39 +32,39 @@ const SideBar = () => {
 	return (
 		<Menu
 			isOpen={menuOpen}
-			onStateChange={(state) => handleSateChange(state)}>
+			onStateChange={(state) => handleStateChange(state)}>
 			<Link
-				to='/'
+				to="/"
 				onClick={() => closeMenu()}
 				className={`menu-item ${homeClass}`}>
 				{t("HOME")}
 			</Link>
 			<Link
-				to='/about'
+				to="/about"
 				onClick={() => closeMenu()}
 				className={`menu-item ${aboutClass}`}>
 				{t("ABOUT")}
 			</Link>
 			<Link
-				to='/projects'
+				to="/projects"
 				onClick={() => closeMenu()}
 				className={`menu-item ${projectClass}`}>
 				{t("PROJECT")}
 			</Link>
 			<Link
-				to='/skills'
+				to="/skills"
 				onClick={() => closeMenu()}
 				className={`menu-item ${skillsClass}`}>
 				{t("SKILLS")}
 			</Link>
 			<Link
-				to='/contact'
+				to="/contact"
 				onClick={() => closeMenu()}
 				className={`menu-item ${contactClass}`}>
 				{t("CONTACT")}
 			</Link>
 			<a
-				href='https://blog-aditya.hashnode.dev/'
+				href="https://blog-aditya.hashnode.dev/"
 				onClick={() => closeMenu()}
 				className={`menu-item ${contactClass}`}>
 				{"Blogs"}
