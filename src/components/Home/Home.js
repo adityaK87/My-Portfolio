@@ -11,12 +11,12 @@ const Home = () => {
 	const { t } = useTranslation(); //destructuring t from the useTranslation
 	return (
 		<div>
-			<div className='home-container'>
-				<div className='header-text'>
+			<div className="home-container">
+				<div className="header-text">
 					<h1>{t("HOME_PAGE_CONTENT.HOME_PAGE_HEADING")}</h1>
 					<p>
 						{t("HOME_PAGE_CONTENT.THIS")}{" "}
-						<span className='frontName'>
+						<span className="frontName">
 							<b>
 								<i>Aditya , </i>
 							</b>
@@ -24,38 +24,38 @@ const Home = () => {
 						{t("HOME_PAGE_CONTENT.FRONTEND_DEV")}
 					</p>
 				</div>
-				<div className='head-btns'>
-					<div className='resume btn  '>
-						<p className='right btn-text '>
+				<div className="head-btns">
+					<div className="resume btn  ">
+						<p className="right btn-text ">
 							{t("HOME_PAGE_CONTENT.RESUME")}
 						</p>
 						<>
 							<a
 								href={Resume}
-								download='Aditya_Kumar_Resume.pdf'
-								className='resume-links download-btn'>
+								download="Aditya_Kumar_Resume.pdf"
+								className="resume-links download-btn">
 								<CgSoftwareDownload />
 							</a>
 							<a
-								target='_blank'
-								rel='noreferrer'
-								href='https://drive.google.com/file/d/1vG9bbEJthefRA5Sd--DYBfVj9xlifUwz/view'
-								className='resume-links download-btn'>
+								target="_blank"
+								rel="noreferrer"
+								href="https://drive.google.com/file/d/1sftqZ4lOdHarrWP763P9G6q7LV5O6RNH/view"
+								className="resume-links download-btn">
 								<BsEye />
 							</a>
 						</>
 					</div>
-					<Link to='/contact' className='btn '>
-						<p className='btn-text'>
+					<Link to="/contact" className="btn ">
+						<p className="btn-text">
 							{t("HOME_PAGE_CONTENT.CONNECT WITH ME")}{" "}
 						</p>
 					</Link>
 				</div>
-				<div className='splash-img'>
+				<div className="splash-img">
 					<img
 						src={homeAnime}
-						alt='Animation'
-						className='home-anime'
+						alt="Animation"
+						className="home-anime"
 					/>
 				</div>
 			</div>

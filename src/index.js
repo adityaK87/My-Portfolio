@@ -1,15 +1,14 @@
-import React, { Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App/App";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+
+const App = React.lazy(() => import("./components/App/App"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<HashRouter>
-			<Suspense fallback={<div>Loading....</div>}>
-				<App />
-			</Suspense>
-		</HashRouter>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
 	</React.StrictMode>
 );
