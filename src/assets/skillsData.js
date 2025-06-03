@@ -5,6 +5,11 @@ export const skillList = [
 			"https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg",
 	},
 	{
+		skillName: "TypeScript",
+		skillUrl:
+			"https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg",
+	},
+	{
 		skillName: "JavaScript",
 		skillUrl:
 			"https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg",
@@ -29,11 +34,7 @@ export const skillList = [
 		skillUrl:
 			"https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
 	},
-	{
-		skillName: "TypeScript",
-		skillUrl:
-			"https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg",
-	},
+
 	{
 		skillName: "Tailwindcss",
 		skillUrl:
@@ -63,5 +64,25 @@ export const skillList = [
 		skillName: "Webpack",
 		skillUrl:
 			"https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/webpack/webpack-original.svg",
+	},
+	{
+		skillName: "NextJs",
+		skillUrl:
+			"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/nextjs/nextjs-original.svg",
+	},
+	{
+		skillName: "Docker",
+		skillUrl:
+			"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/docker/docker-plain.svg",
+	},
+	{
+		skillName: "Prisma",
+		skillUrl:
+			"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/prisma/prisma-original.svg",
+	},
+	{
+		skillName: "PostgreSQL",
+		skillUrl:
+			"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/postgresql/postgresql-original.svg",
 	},
 ];
